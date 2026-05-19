@@ -1,6 +1,6 @@
 ---
 type: meta
-title: "Wiki Index"
+title: Wiki Index
 updated: 2026-04-07
 tags:
   - meta
@@ -12,9 +12,9 @@ related:
   - "[[hot]]"
   - "[[dashboard]]"
   - "[[Wiki Map]]"
-  - "[[concepts/_index]]"
-  - "[[entities/_index]]"
-  - "[[sources/_index]]"
+  - "[[Wiki/concepts/_index]]"
+  - "[[Wiki/entities/_index]]"
+  - "[[Wiki/sources/_index]]"
   - "[[LLM Wiki Pattern]]"
   - "[[Hot Cache]]"
   - "[[Compounding Knowledge]]"
@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-15 | Total pages: 34 | Sources ingested: 2
+Last updated: 2026-05-18 | Total pages: 53 | Sources ingested: 17
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -88,6 +88,85 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 ---
 
-## Domains
+## Papers
 
-<!-- Add domain entries here after scaffold -->
+<!-- Aggiungi paper annotati qui -->
+
+---
+
+## Books
+
+### Teoria dei Sistemi
+- [[Skyttner - General Systems Theory]] — Skyttner 2005 | GST completa: Boulding, Beer, Lovelock, auto-organizzazione (status: in-coda)
+- [[Gharajedaghi - Systems Thinking]] — Gharajedaghi 2011 | Interactive design, mess, multidimensionalità (status: in-coda)
+- [[Bertuglia Vaio - Nonlinearity Chaos Complexity]] — Bertuglia/Vaio 2005 | Volterra-Lotka, Lorenz, mappa logistica, complessità (status: in-coda)
+- [[Boardman Sauser - Systems Thinking]] — Boardman/Sauser 2008 | Conceptagon, SoS ABCDE, systemigrams (status: in-coda)
+- [[Burgess - Thinking in Promises]] — Burgess 2015 | Promise Theory, agenti autonomi, cooperazione distribuita (status: in-coda)
+
+### Ingegneria dei Sistemi
+- [[SEBoK v2.7]] — INCOSE 2022 | Enciclopedia SE: fondamenti, lifecycle, MBSE, SoS, healthcare (status: in-coda)
+- [[Holt - Systems Engineering Demystified]] — Holt 2023 | MBSE 5-stage evolution, SysML, ontologie (status: in-coda)
+- [[Eisner - Essentials SE Management]] — Eisner 2002 | PM + 30 elementi SE + architecting + earned value (status: in-coda)
+- [[Wasson - System Analysis Design Development]] — Wasson 2006 | 57-chapter SADD: CONOPS, use cases, V&V, RAM (status: in-coda)
+- [[Satzinger Jackson Burd - System Analysis Design]] — Satzinger et al. 2009 | SDLC, UML, OO, database, IT systems (status: in-coda)
+- [[Hollnagel Woods Leveson - Resilience Engineering]] — Hollnagel/Woods/Leveson 2006 | STAMP, drift into failure, WAI/WAD (status: in-coda)
+
+### Sistemi Naturali
+- [[Begon Townsend Harper - Ecology]] — Begon et al. 2006 | Ecologia 4th ed.: organismi, interazioni, ecosistemi (status: in-coda)
+- [[Odum Odum - Modeling for All Scales]] — H.T. Odum 2000 | Emergy, ESL, STELLA/EXTEND, Maximum Power Principle (status: in-coda)
+- [[Weiner Matthews - Environmental Engineering]] — Weiner/Matthews 2003 | Acqua, aria, rifiuti, risk analysis (status: in-coda)
+
+### Fisica / Termodinamica
+- [[Reynolds - Energy]] — Reynolds 1974 | Energia dalla natura all'uomo; termodinamica accessibile (status: in-coda)
+
+### Fondamenti Informatici
+- [[Toffalori et al - Teoria Computabilità Complessità]] — Toffalori et al. 2005 | MT, P=NP, Cook-Levin, Savitch, computazione quantistica (status: in-coda)
+
+---
+
+## Thesis
+
+- [[Sintesi del Campo]] — stato dell'arte complessivo: sistemi, termodinamica, auto-organizzazione (status: developing)
+
+---
+
+## Gaps
+
+<!-- Aggiungi domande aperte qui -->
+
+---
+
+## Goals
+
+- [[Percorso di Studio]] — roadmap complessiva: libro, lezioni universitarie, wiki (status: active)
+
+---
+
+## Journal
+
+- [[2026-05-17-inizio]] — avvio del wiki: scaffold struttura D+E+F, domini definiti
+
+---
+
+## Lessons
+
+<!-- Aggiungi lezioni qui -->
+
+---
+
+## Domains — Sistemi
+
+- [[Teoria dei Sistemi]] — GST (Bertalanffy), cibernetica (Wiener), system dynamics (Forrester) (status: developing)
+- [[Termodinamica dei Fenomeni Irreversibili]] — TIP, Onsager, Prigogine, strutture dissipative (status: developing)
+- [[Fenomeni Autocooperativi]] — sinergetica (Haken), iperciclo (Eigen), CAS (Kauffman) (status: developing)
+- [[Ingegneria dei Sistemi]] — INCOSE, V-Model, MBSE, SysML (status: developing)
+
+---
+
+## Domains — Sistemi Naturali
+
+- [[Wiki/natural-systems/_index|Natural Systems]] — hub: biologia, biochimica, ecofisica, ecodinamica
+- [[Biologia dei Sistemi]] — reti geniche/metaboliche/proteomiche, network motifs (Alon), biologia sintetica (status: developing)
+- [[Biochimica]] — metabolismo, bioenergetica, ATP-sintetasi, legge di Mitchell, struttura molecolare della vita (status: developing)
+- [[Ecofisica]] — leggi di scala allometriche (West), metabolic theory of ecology, flussi energetici, exergia (status: developing)
+- [[Ecodinamica]] — Lotka-Volterra, reti trofiche, resilienza (Holling), ciclo adattativo, tipping points (status: developing)

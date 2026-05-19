@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk '{print $1, $2}')",
+      "Bash(qpdf --decrypt \"L. von Bertalanffy - General System Theory.pdf\" \"unlocked_L. von Bertalanffy - General System Theory.pdf\")",
+      "Bash(pdftotext -layout \"unlocked_L. von Bertalanffy - General System Theory.pdf\" \"txt/L. von Bertalanffy - General System Theory.txt\")"
+    ]
+  }
+}

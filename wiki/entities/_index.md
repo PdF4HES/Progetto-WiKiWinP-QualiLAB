@@ -16,7 +16,7 @@ related:
 
 # Entities Index
 
-Navigation: [[index]] | [[concepts/_index|Concepts]] | [[sources/_index|Sources]]
+Navigation: [[index]] | [[Wiki/concepts/_index|Concepts]] | [[Wiki/sources/_index|Sources]]
 
 All entity pages — people, organizations, products, and tools.
 

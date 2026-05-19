@@ -1,6 +1,6 @@
 ---
 type: meta
-title: "Operation Log"
+title: Operation Log
 updated: 2026-04-08
 tags:
   - meta
@@ -10,7 +10,7 @@ related:
   - "[[index]]"
   - "[[hot]]"
   - "[[overview]]"
-  - "[[sources/_index]]"
+  - "[[Wiki/sources/_index]]"
 ---
 
 # Operation Log
@@ -18,6 +18,21 @@ related:
 Navigation: [[index]] | [[hot]] | [[overview]]
 
 Append-only. New entries go at the TOP. Never edit past entries.
+
+---
+
+## 2026-05-18 | batch-ingest | 16 Libri + 1 MD
+
+- Sources: `.raw/` — 15 PDF + 1 EPUB + 1 MD (decriptati con `qpdf`, convertiti con `pdftotext`)
+- Pages created: [[Skyttner - General Systems Theory]], [[Bertuglia Vaio - Nonlinearity Chaos Complexity]], [[Gharajedaghi - Systems Thinking]], [[SEBoK v2.7]], [[Holt - Systems Engineering Demystified]], [[Eisner - Essentials SE Management]], [[Boardman Sauser - Systems Thinking]], [[Wasson - System Analysis Design Development]], [[Satzinger Jackson Burd - System Analysis Design]], [[Begon Townsend Harper - Ecology]], [[Odum Odum - Modeling for All Scales]], [[Hollnagel Woods Leveson - Resilience Engineering]], [[Reynolds - Energy]], [[Weiner Matthews - Environmental Engineering]], [[Toffalori et al - Teoria Computabilità Complessità]], [[Burgess - Thinking in Promises]]
+- Pages updated: [[Teoria dei Sistemi]], [[Ingegneria dei Sistemi]], [[Fenomeni Autocooperativi]], [[Ecodinamica]], [[Ecofisica]], [[Termodinamica dei Fenomeni Irreversibili]], [[Wiki/books/_index]], [[index]], [[hot]]
+- Key cross-references found:
+  - **Volterra-Lotka** appare in Bertuglia (cap. 12-13), Begon (cap. 10), Odum (modello PC&CYCLE)
+  - **STAMP** (Leveson) connette Hollnagel alla SE formale; entrambi trattano sistemi sociotecnici
+  - **Promise Theory** (Burgess) formalizza i SoS di Boardman (proprietà B = voluntariness)
+  - **Emergy** (Odum) si connette alla termodinamica di Reynolds (1° e 2° principio come fondamento)
+  - **Mappa logistica + Feigenbaum** in Bertuglia approfondisce le biforcazioni citate in Fenomeni Autocooperativi
+  - **Computabilità/NP** (Toffalori) definisce i limiti formali alla prevedibilità dei sistemi complessi
 
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
@@ -50,7 +65,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - Scope: six-test menu the user approved. Codex gpt-5.4 for T1/T4/T6 (sub-agent delegation); chair for T0/T2/T3 (one-shot shell) and all integration (index, log, hot, commit).
 - Style: all new content uses colons or parens instead of em-dashes. Pre-existing em-dashes in index entries and wiki/concepts/_index.md left as-is (clean-room boundary; deferred to F-slice style pass).
 - Tests still green: `make test` passes (74+ assertions).
-- Integration: chair added the 3 new concepts to `wiki/index.md` and `wiki/concepts/_index.md` with colon-style descriptions so the fresh pages are discoverable. The cluster extends `[[How does the LLM Wiki pattern work?]]` and cross-references `[[LLM Wiki Pattern]]`.
+- Integration: chair added the 3 new concepts to `wiki/index.md` and `wiki/concepts/_index.md` with colon-style descriptions so the fresh pages are discoverable. The cluster extends `[[How does the LLM Wiki pattern work]]` and cross-references `[[LLM Wiki Pattern]]`.
 - Next recommended slice: either (G) commit this test batch and declare v1.6.0 validated, or (H) run a second fold k=3 now that 8 newer entries exist above this one and close the hierarchical-fold-not-yet-supported loop in a future phase.
 
 ## [2026-04-24] save | v1.6.0 closeout (Teams, chair-led)

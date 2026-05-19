@@ -1,8 +1,12 @@
 {
   "shouldConfirmBeforeCreate": false,
-  "localeOverride": "en-GB",
   "weekStart": "monday",
+  "wordsPerDot": 250,
   "showWeeklyNote": false,
+  "weeklyNoteFormat": "",
+  "weeklyNoteTemplate": "",
+  "weeklyNoteFolder": "",
+  "localeOverride": "en-GB",
   "sourceSettings": {
     "wordCount": {
       "color": "#ebcb8b",

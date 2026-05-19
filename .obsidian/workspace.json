@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "cb698273c33e48de",
+    "id": "0144d5fd7fcdd0a4",
     "type": "split",
     "children": [
       {
-        "id": "477f1cf965ca606e",
+        "id": "85f9656bdeeda045",
         "type": "tabs",
         "children": [
           {
-            "id": "a31de1b302cdc5cf",
+            "id": "511e362e88dc4e50",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Wiki/concepts/Teoria dei Sistemi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Teoria dei Sistemi"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "db8d83ac47ae599f",
+    "id": "aa48a200cdcd306b",
     "type": "split",
     "children": [
       {
-        "id": "554fd2b4fa6f8741",
+        "id": "b85c0f2a99d8a0ba",
         "type": "tabs",
         "children": [
           {
-            "id": "5565f1231fe95c42",
+            "id": "0cfba205ac45c2a3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
-            "id": "832ab43d08cf9e30",
+            "id": "1e22ab040a2726d8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -57,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Ricerca"
             }
           },
           {
-            "id": "097e8347bb8aa054",
+            "id": "6a07324167c8aaa9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Segnalibri"
             }
           }
         ]
@@ -77,15 +81,15 @@
     "width": 300
   },
   "right": {
-    "id": "7092b65be1e76349",
+    "id": "3f7dea97792c57b3",
     "type": "split",
     "children": [
       {
-        "id": "9f4de9402eae371b",
+        "id": "6a4e9031e3c0d1af",
         "type": "tabs",
         "children": [
           {
-            "id": "a32b7215b7814fbb",
+            "id": "307d5a7b7452ab62",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -99,11 +103,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Riferimenti"
             }
           },
           {
-            "id": "7936f8ba26007091",
+            "id": "769cebbc0d8f7764",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -112,11 +116,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Collegamenti in uscita"
             }
           },
           {
-            "id": "ed8ccb323a603d61",
+            "id": "0c4b39802dc6b9e5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -127,11 +131,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etichette"
             }
           },
           {
-            "id": "b140a331162907cf",
+            "id": "193d460fabbb74ad",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -141,11 +145,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Tutte le proprietà"
             }
           },
           {
-            "id": "111a21e12ab1a293",
+            "id": "512fb382b1b47b89",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -155,37 +159,109 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Struttura"
             }
           },
           {
-            "id": "20a272e103b5d792",
+            "id": "640b07c6ba583f06",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "63cb0183553c0f7e",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Lookup: Open lookup view": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-kanban:Crea nuova bacheca": false,
+      "marp-slides:Show Slide Preview": false,
+      "slides-extended:Show slide preview": false
     }
   },
-  "active": "a31de1b302cdc5cf",
-  "lastOpenFiles": []
+  "active": "511e362e88dc4e50",
+  "lastOpenFiles": [
+    "Wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md",
+    "Wiki/concepts/Teoria dei Sistemi.md",
+    "Wiki/concepts/Ingegneria dei Sistemi.md",
+    "Wiki/natural-systems/_index.md",
+    "Wiki/concepts/SVG Diagram Style Guide.md",
+    "Wiki/hot.md",
+    "Wiki/books/_index.md",
+    "Wiki/meta/workflow-loop.gif",
+    "Wiki/meta/dragonscale-frontier-graph.png",
+    "Wiki/meta/dragonscale-6-test-flow.png",
+    "Wiki/gaps/_index.md",
+    "Wiki/log.md",
+    "Wiki/overview.md",
+    "Wiki/Wiki Map.canvas",
+    "Wiki/meta/claude-obsidian-gif-1x1.gif",
+    "Wiki/meta/lint-report-2026-05-18.md",
+    "Wiki/index.md.tmp.46908.3a1c674281cb",
+    "Wiki/log.md.tmp.46908.f3a9e120efbe",
+    "Wiki/meta/wiki-graph-grow.gif",
+    "Wiki/natural-systems/Biochimica.md",
+    "Wiki/lessons/_index.md",
+    "Wiki/journal/2026-05-17-inizio.md",
+    "Wiki/journal/_index.md",
+    "Wiki/concepts/SEO Drift Monitoring.md",
+    "Wiki/concepts/Query-Time Retrieval.md",
+    "Wiki/concepts/Pro Hub Challenge.md",
+    "Wiki/concepts/Persistent Wiki Artifact.md",
+    "Wiki/concepts/LLM Wiki Pattern.md",
+    "Wiki/concepts/Hot Cache.md",
+    "Wiki/concepts/Fenomeni Autocooperativi.md",
+    "Wiki/concepts/cherry-picks.md",
+    "Wiki/comparisons/Wiki vs RAG.md",
+    "Wiki/canvases/youtube-explainer.canvas",
+    "Wiki/canvases/welcome.canvas",
+    "Wiki/canvases/main.canvas",
+    "Wiki/canvases/claude-obsidian-presentation.canvas",
+    "Wiki/log.md.tmp.46908.42724dceebd9",
+    "Wiki/hot.md.tmp.46908.fdfe8ec6238a",
+    "Wiki/hot.md.tmp.46908.f8e2adbc9a7c",
+    "Wiki/hot.md.tmp.46908.f1f8cd2ea666",
+    "Wiki/index.md.tmp.46908.400f5b7c3723",
+    "Wiki/index.md.tmp.46908.29d1e9bebfc5",
+    "Wiki/books/_index.md.tmp.46908.df796eed07a9",
+    "Wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md.tmp.46908.cbad72afc7c6",
+    "Wiki/books/Burgess - Thinking in Promises.md",
+    "Wiki/books/Toffalori et al - Teoria Computabilità Complessità.md",
+    "Wiki/meta/image-example-wiki-map-view.png",
+    "Wiki/meta/welcome-canvas.gif",
+    "Wiki/meta/image-example-graph-view.png",
+    "Wiki/meta/dragonscale-mechanism-overview.svg",
+    "Wiki/meta/dragonscale-mechanism-overview.png"
+  ]
 }

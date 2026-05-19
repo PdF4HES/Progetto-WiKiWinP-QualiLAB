@@ -1,12 +1,12 @@
 ---
 type: concept
-title: "Hot Cache"
+title: Hot Cache
 complexity: basic
 domain: knowledge-management
 aliases:
-  - "hot.md"
-  - "Session Cache"
-  - "Context Cache"
+  - hot.md
+  - Session Cache
+  - Context Cache
 created: 2026-04-07
 updated: 2026-04-07
 tags:
@@ -19,7 +19,7 @@ related:
   - "[[Compounding Knowledge]]"
   - "[[index]]"
   - "[[hot]]"
-  - "[[concepts/_index]]"
+  - "[[Wiki/concepts/_index]]"
 sources:
 ---
 

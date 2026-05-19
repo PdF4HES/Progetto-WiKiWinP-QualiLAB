@@ -2,7 +2,111 @@
   "version": 1,
   "created": "2026-04-23",
   "description": "Ingest delta tracker and address map for the claude-obsidian vault. Do not hand-edit; wiki-ingest maintains this.",
-  "sources": {},
+  "sources": {
+    ".raw/claude-obsidian-ecosystem-research.md": {
+      "hash": "A2EE4793F57644CF781F1043B87D7A30",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/sources/claude-obsidian-ecosystem-research.md"],
+      "pages_updated": ["wiki/index.md"]
+    },
+    ".raw/L. Skyttner - General Systems Theory - Problems, Perspectives, Practice (2nd ed.).pdf": {
+      "hash": "493EFCF8C55FA84815E416F076940565",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Skyttner - General Systems Theory.md"],
+      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md", "wiki/books/_index.md", "wiki/index.md"]
+    },
+    ".raw/C. S. Bertuglia, F. Vaio - Nonlinearity, Chaos, and Complexity. The Dynamics of Natural and Social Systems.pdf": {
+      "hash": "783BE4CBFB4B614187615A57924256F0",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Bertuglia Vaio - Nonlinearity Chaos Complexity.md"],
+      "pages_updated": ["wiki/concepts/Fenomeni Autocooperativi.md", "wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"]
+    },
+    ".raw/J. Gharajedaghi - Systems Thinking, Managing Chaos and Complexity - A Platform for Designing Business Architecture.pdf": {
+      "hash": "3FA69A49EDF959F013FA59A9E68E0F6C",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Gharajedaghi - Systems Thinking.md"],
+      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md", "wiki/concepts/Ingegneria dei Sistemi.md"]
+    },
+    ".raw/SEBoK - A Guide to the Systems Engineering Body of Knowledge (v.2.7).pdf": {
+      "hash": "E5FFC20C09D38641AA62859892471B4D",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/SEBoK v2.7.md"],
+      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
+    },
+    ".raw/J. Holt - Systems Engineering Demystified.pdf": {
+      "hash": "60B736BCA3B1D126EC974D3D9CDBAE71",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Holt - Systems Engineering Demystified.md"],
+      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
+    },
+    ".raw/H. Eisner -  Essentials of Project and Systems Engineering Management.pdf": {
+      "hash": "FFD888AA54B7C049AE66D3E71CE6E9A4",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Eisner - Essentials SE Management.md"],
+      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
+    },
+    ".raw/J. Boardman, B. Sauser - Systems Thinking Coping with 21st Century Problems.pdf": {
+      "hash": "80118BF0A4D5B61148D4652EF86CB80F",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Boardman Sauser - Systems Thinking.md"],
+      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md", "wiki/concepts/Ingegneria dei Sistemi.md"]
+    },
+    ".raw/J. W. Satzinger, R. B. Jackson, S. D. Burd - System Analysis & Design in a Changing World.pdf": {
+      "hash": "3693FA604BA0E01637AE223A169DD184",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Satzinger Jackson Burd - System Analysis Design.md"],
+      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
+    },
+    ".raw/C. S. Wasson - System Analysis, Design and Development - Concepts, Principles, and Practices.pdf": {
+      "hash": "8FD7AEBE55B265840AA5E1F05B25B89F",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Wasson - System Analysis Design Development.md"],
+      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
+    },
+    ".raw/M. Begon, C. R. Townsend, J. L. Harper - Ecology, from Individuals to Ecosystems.pdf": {
+      "hash": "4E43C850759F724D0C8739DA0FEE931C",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Begon Townsend Harper - Ecology.md"],
+      "pages_updated": ["wiki/natural-systems/Ecodinamica.md", "wiki/natural-systems/Ecofisica.md"]
+    },
+    ".raw/H. T. Odum, E. C. Odum - Modeling for All Scales - An Introduction to System Simulation.pdf": {
+      "hash": "A2B90E6C57DB5381963F28EB243F1F62",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Odum Odum - Modeling for All Scales.md"],
+      "pages_updated": ["wiki/natural-systems/Ecofisica.md", "wiki/natural-systems/Ecodinamica.md"]
+    },
+    ".raw/E. Hollnagel, D. D. Woods, N. Leveson - Resilience Engineering. Concepts and Precepts.pdf": {
+      "hash": "C5C841B58D8F601A4BB7722939C5C2B7",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Hollnagel Woods Leveson - Resilience Engineering.md"],
+      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
+    },
+    ".raw/W. C. Reynolds - Energy.pdf": {
+      "hash": "7EA4BA99D766BEF64CBD24B1D9672F8A",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Reynolds - Energy.md"],
+      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md", "wiki/natural-systems/Ecofisica.md"]
+    },
+    ".raw/R. F. Weiner, R. Matthews - Environmental Engineering.pdf": {
+      "hash": "40B45EF2BCE6E97532E036C17DCC2319",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Weiner Matthews - Environmental Engineering.md"],
+      "pages_updated": ["wiki/natural-systems/Ecodinamica.md"]
+    },
+    ".raw/C. Toffalori, F. Corradini, S. Leonesi, S. Mancini - Teoria della Computabilità e Complessità.pdf": {
+      "hash": "2AEB15D7FDB77F86743FFB88699E0440",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Toffalori et al - Teoria Computabilità Complessità.md"],
+      "pages_updated": []
+    },
+    ".raw/M. Burgess -  Thinking in Promises, Designing Systems for Cooperation.epub": {
+      "hash": "7BC87DAE58BA468B5CFBAD773574DC89",
+      "ingested_at": "2026-05-18",
+      "pages_created": ["wiki/books/Burgess - Thinking in Promises.md"],
+      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md"],
+      "note": "EPUB binary; content from training knowledge"
+    }
+  },
   "address_map": {
     "wiki/concepts/DragonScale Memory.md": "c-000001"
   }

@@ -1,13 +1,13 @@
 ---
 type: concept
-title: "DragonScale Memory"
+title: DragonScale Memory
 address: c-000001
 complexity: advanced
 domain: knowledge-management
 aliases:
-  - "DragonScale"
-  - "DragonScale Architecture"
-  - "Fractal Memory"
+  - DragonScale
+  - DragonScale Architecture
+  - Fractal Memory
 created: 2026-04-23
 updated: 2026-04-24
 tags:
@@ -21,7 +21,7 @@ related:
   - "[[LLM Wiki Pattern]]"
   - "[[Compounding Knowledge]]"
   - "[[Hot Cache]]"
-  - "[[concepts/_index]]"
+  - "[[Wiki/concepts/_index]]"
 sources:
 ---
 

@@ -1,11 +1,11 @@
 ---
 type: concept
-title: "Compounding Knowledge"
+title: Compounding Knowledge
 complexity: basic
 domain: knowledge-management
 aliases:
-  - "Knowledge Compounding"
-  - "Persistent Synthesis"
+  - Knowledge Compounding
+  - Persistent Synthesis
 created: 2026-04-07
 updated: 2026-04-07
 tags:
@@ -16,7 +16,7 @@ related:
   - "[[LLM Wiki Pattern]]"
   - "[[Hot Cache]]"
   - "[[Andrej Karpathy]]"
-  - "[[concepts/_index]]"
+  - "[[Wiki/concepts/_index]]"
 sources:
 ---
 

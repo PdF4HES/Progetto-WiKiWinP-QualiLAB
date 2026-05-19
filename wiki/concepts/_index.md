@@ -22,7 +22,7 @@ related:
 
 # Concepts Index
 
-Navigation: [[index]] | [[entities/_index|Entities]] | [[sources/_index|Sources]]
+Navigation: [[index]] | [[Wiki/entities/_index|Entities]] | [[Wiki/sources/_index|Sources]]
 
 All concept pages — ideas, patterns, and frameworks extracted from sources.
 

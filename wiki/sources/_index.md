@@ -1,6 +1,6 @@
 ---
 type: meta
-title: "Sources Index"
+title: Sources Index
 updated: 2026-04-07
 tags:
   - meta
@@ -10,13 +10,13 @@ status: evergreen
 related:
   - "[[index]]"
   - "[[log]]"
-  - "[[entities/_index]]"
+  - "[[Wiki/entities/_index]]"
   - "[[Andrej Karpathy]]"
 ---
 
 # Sources Index
 
-Navigation: [[index]] | [[concepts/_index|Concepts]] | [[entities/_index|Entities]]
+Navigation: [[index]] | [[Wiki/concepts/_index|Concepts]] | [[Wiki/entities/_index|Entities]]
 
 All source pages — summaries of ingested documents, transcripts, articles, and data.
 

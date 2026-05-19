@@ -1,70 +1,110 @@
 ---
 type: overview
-title: "Wiki Overview"
+title: Wiki Overview
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-05-17
 tags:
   - meta
   - overview
-status: developing
+status: active
 related:
   - "[[index]]"
   - "[[hot]]"
   - "[[log]]"
-  - "[[dashboard]]"
-  - "[[LLM Wiki Pattern]]"
-sources:
+  - "[[Sintesi del Campo]]"
+  - "[[Percorso di Studio]]"
 ---
 
 # Wiki Overview
 
-Navigation: [[index]] | [[hot]] | [[log]] | [[dashboard]]
+Navigation: [[index]] | [[hot]] | [[log]]
 
 ---
 
-## Purpose
+## Scopo
 
-This is the claude-obsidian demo vault. It demonstrates the [[LLM Wiki Pattern]] — a system for building persistent, compounding knowledge bases using Claude and Obsidian.
+Studio autonomo e produzione di conoscenza originale su otto domini interconnessi, organizzati in due macro-aree.
 
-Run `/wiki` to scaffold this vault for your own domain and replace this overview.
+### Sistemi (astrazione e ingegneria)
 
----
+1. **[[Teoria dei Sistemi]]** — GST, cibernetica, system dynamics, soft systems
+2. **[[Termodinamica dei Fenomeni Irreversibili]]** — TIP, Onsager, Prigogine, strutture dissipative
+3. **[[Fenomeni Autocooperativi]]** — sinergetica, iperciclo, sistemi adattativi complessi
+4. **[[Ingegneria dei Sistemi]]** — INCOSE, MBSE, SysML, architettura di sistemi
 
-## Current Seed Content
+### Sistemi Naturali (substrato biologico e ecologico)
 
+5. **[[Biologia dei Sistemi]]** — reti biologiche, network motifs, biologia sintetica
+6. **[[Biochimica]]** — metabolismo, bioenergetica, struttura molecolare della vita
+7. **[[Ecofisica]]** — leggi di scala, flussi energetici, fisica degli ecosistemi
+8. **[[Ecodinamica]]** — dinamiche di popolazione, reti trofiche, resilienza, tipping points
 
-**Concepts seeded:**
-- [[LLM Wiki Pattern]] — the core architecture
-- [[Hot Cache]] — session context mechanism
-- [[Compounding Knowledge]] — why the pattern works
-
-**Entities seeded:**
-- [[Andrej Karpathy]] — originated the pattern
-
-**Sources seeded:**
-- [[claude-obsidian-ecosystem-research]] — 16+ projects, 13 cherry-picks identified (2026-04-08)
+**Output attesi:** libro originale, serie di lezioni universitarie, knowledge base permanente.
 
 ---
 
-## Current State
+## Modalita
 
-- Sources ingested: 2
-- Wiki pages: 26
-- Last activity: 2026-04-08 (v1.4.1 shipped, release session filed)
-
----
-
-## Canvases
-
-- [[claude-obsidian-presentation]] — Full presentation: hero, overview, skills, architecture, Wiki vs RAG, visual demos (2026-04-07)
-- [[AI Marketing Hub Cover Images Canvas]] — Cover image library for AI Marketing Hub brand assets
+- **Mode D (Second Brain):** goals, journal, progressione dello studio personale
+- **Mode E (Research):** paper accademici, sintesi del campo, domande aperte
+- **Mode F (Book/Course):** annotazione libri, preparazione lezioni, bozze libro
 
 ---
 
-## Key Themes
+## Struttura del Wiki
 
-**Knowledge compounds.** Unlike RAG, the wiki pre-compiles synthesis. Cross-references are already there. Contradictions are flagged. Every ingest enriches existing pages rather than adding isolated chunks.
+```
+wiki/
+├── concepts/          # meta-concetti (LLM Wiki Pattern, Hot Cache) + domini Sistemi seed
+├── natural-systems/   # 4 domini Sistemi Naturali seed
+│   ├── _index.md
+│   ├── Biologia dei Sistemi.md
+│   ├── Biochimica.md
+│   ├── Ecofisica.md
+│   └── Ecodinamica.md
+├── papers/            # paper annotati per dominio
+├── books/             # libri annotati
+├── thesis/            # sintesi evolutiva del campo
+├── gaps/              # domande aperte e contraddizioni
+├── goals/             # obiettivi e roadmap
+├── journal/           # diario di studio
+├── lessons/           # lezioni universitarie
+├── entities/          # autori, istituzioni, metodi
+├── comparisons/       # analisi comparative
+├── questions/         # risposte a query
+└── meta/              # session reports, dashboard
+```
 
-**The hot cache is the force multiplier.** A ~500-word file captures recent context. New sessions start with full context at minimal token cost.
+---
 
-**Obsidian is the IDE, Claude is the programmer.** The graph view shows what's connected. The human curates sources and asks questions. Claude writes and maintains everything else.
+## Sintesi del Campo
+
+Il filo rosso tra gli otto domini:
+
+```
+Sistemi aperti (Bertalanffy)
+  --> Dissipazione energetica (Prigogine)
+    --> Auto-organizzazione (Haken)
+      --> Progettazione sistematica (INCOSE)
+
+         |  applicazione al substrato naturale
+         v
+
+Biochimica (molecole: ATP, enzimi, membrane)
+  --> Biologia dei Sistemi (reti intracellulari: GRN, metaboloma)
+    --> Ecodinamica (reti inter-specie: popolazioni, catene trofiche)
+      --> Ecofisica (leggi universali: scaling, exergia, massima potenza)
+```
+
+Vedi [[Sintesi del Campo]] per la mappa completa.
+
+---
+
+## Stato Corrente
+
+- Concept seed pages (Sistemi): 4 (Teoria dei Sistemi, TIP, Autocooperativi, Ingegneria SE)
+- Concept seed pages (Natural Systems): 4 (Biologia dei Sistemi, Biochimica, Ecofisica, Ecodinamica)
+- Papers annotati: 0 (da avviare)
+- Libri annotati: 0 (da avviare)
+- Lezioni: 0 (da avviare)
+- Ultimo aggiornamento: 2026-05-17 (aggiunta macro-area Natural Systems)

@@ -1,12 +1,12 @@
 ---
 type: concept
-title: "LLM Wiki Pattern"
+title: LLM Wiki Pattern
 complexity: intermediate
 domain: knowledge-management
 aliases:
-  - "LLM Knowledge Base"
-  - "Karpathy Wiki"
-  - "Persistent Wiki"
+  - LLM Knowledge Base
+  - Karpathy Wiki
+  - Persistent Wiki
 created: 2026-04-07
 updated: 2026-04-07
 tags:
@@ -20,7 +20,7 @@ related:
   - "[[Compounding Knowledge]]"
   - "[[Andrej Karpathy]]"
   - "[[index]]"
-  - "[[concepts/_index]]"
+  - "[[Wiki/concepts/_index]]"
 sources:
 ---
 
