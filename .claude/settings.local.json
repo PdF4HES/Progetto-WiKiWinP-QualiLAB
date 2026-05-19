@@ -3,7 +3,10 @@
     "allow": [
       "Bash(awk '{print $1, $2}')",
       "Bash(qpdf --decrypt \"L. von Bertalanffy - General System Theory.pdf\" \"unlocked_L. von Bertalanffy - General System Theory.pdf\")",
-      "Bash(pdftotext -layout \"unlocked_L. von Bertalanffy - General System Theory.pdf\" \"txt/L. von Bertalanffy - General System Theory.txt\")"
+      "Bash(pdftotext -layout \"unlocked_L. von Bertalanffy - General System Theory.pdf\" \"txt/L. von Bertalanffy - General System Theory.txt\")",
+      "Bash(./scripts/allocate-address.sh --peek)",
+      "Bash(cat .vault-meta/address-counter.txt)",
+      "Bash(ls .vault-meta/)"
     ]
   }
 }
