@@ -109,6 +109,10 @@ Il bordo del caos (Langton, Kauffman): la regione di massima complessita computa
 
 - [[Bertuglia Vaio - Nonlinearity Chaos Complexity]] — biforcazioni, attrattori, caos, complessità (Oxford 2005)
 - [[Skyttner - General Systems Theory]] — cap. 6 su auto-organizzazione ed evoluzione
+- [[Prigogine Nicolis - Self-Organization Non-Equilibrium]] — il testo canonico sulle strutture dissipative; ordine attraverso le fluttuazioni
+- [[Kondepudi Prigogine - Modern Thermodynamics]] — cap. 11: strutture dissipative; instabilità di Turing e BZ
+- [[Prigogine - Le Leggi del Caos]] — "dal caos all'ordine": versione divulgativa
+- [[Reichl - Modern Course Statistical Physics]] — transizioni di fase, comportamento critico, slowing down
 
 ## Fonti da Acquisire
 
@@ -116,5 +120,4 @@ Il bordo del caos (Langton, Kauffman): la regione di massima complessita computa
 - Haken, H. (1983). *Advanced Synergetics*. Springer.
 - Kauffman, S. (1993). *The Origins of Order*. Oxford.
 - Eigen, M. & Schuster, P. (1979). *The Hypercycle*. Springer.
-- Nicolis, G. & Prigogine, I. (1977). *Self-Organization in Nonequilibrium Systems*. Wiley.
 - Turing, A.M. (1952). The Chemical Basis of Morphogenesis. *Phil. Trans. R. Soc. B*, 237, 37-72.

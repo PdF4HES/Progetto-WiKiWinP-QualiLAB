@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-05-18 | Total pages: 53 | Sources ingested: 17
+Last updated: 2026-05-19 | Total pages: 68 | Sources ingested: 32
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -116,8 +116,31 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[Odum Odum - Modeling for All Scales]] — H.T. Odum 2000 | Emergy, ESL, STELLA/EXTEND, Maximum Power Principle (status: in-coda)
 - [[Weiner Matthews - Environmental Engineering]] — Weiner/Matthews 2003 | Acqua, aria, rifiuti, risk analysis (status: in-coda)
 
+### Teoria dei Sistemi (fonte primaria)
+- [[von Bertalanffy - General System Theory]] — Bertalanffy 1968 | GST: sistemi aperti, equifinalità, isomorfismo; EN+IT (status: in-coda)
+
+### Prigogine / Termodinamica Irreversibile
+- [[Kondepudi Prigogine - Modern Thermodynamics]] — Kondepudi/Prigogine 2015 | TIP, strutture dissipative, freccia del tempo (status: in-coda)
+- [[Prigogine - From Being to Becoming]] — Prigogine 1980 | Irreversibilità intrinseca; meccanica hamiltoniana (status: in-coda)
+- [[Prigogine - Le Leggi del Caos]] — Prigogine 1993 | Dal determinismo al caos; divulgazione italiano (status: in-coda)
+- [[Prigogine - Termodinamica Processi Irreversibili]] — Prigogine 1967 | TIP lineare fondativa; italiano (status: in-coda)
+- [[Prigogine Nicolis - Self-Organization Non-Equilibrium]] — Nicolis/Prigogine 1977 | Strutture dissipative; ordine attraverso fluttuazioni (status: in-coda)
+- [[Prigogine Rice - Advances Chemical Physics Vol90]] — Prigogine/Rice 1997 | Operatore entropico; tecnico (status: in-coda)
+
+### Meccanica Statistica
+- [[Tolman - Principles Statistical Mechanics]] — Tolman 1938 | Classico: ensemble, teorema H, paradosso irreversibilità (status: in-coda)
+- [[Reichl - Modern Course Statistical Physics]] — Reichl 2009 | Moderno: FDT, Fokker-Planck, transizioni di fase (status: in-coda)
+
+### Non-Equilibrio
+- [[De Groot Mazur - Non-Equilibrium Thermodynamics]] — De Groot/Mazur 1962 | TIP formale; flussi/forze accoppiati (status: in-coda)
+- [[Demirel - Nonequilibrium Thermodynamics]] — Demirel 2014 | TIP applicata; biofisica; exergia (status: in-coda)
+
 ### Fisica / Termodinamica
 - [[Reynolds - Energy]] — Reynolds 1974 | Energia dalla natura all'uomo; termodinamica accessibile (status: in-coda)
+
+### Termodinamica Ingegneristica
+- [[Moran Shapiro - Fundamentals Engineering Thermodynamics]] — Moran/Shapiro 2006 | 5ª ed. SI; cicli, exergia, volumi di controllo (status: in-coda)
+- [[Cengel Boles - Thermodynamics Engineering Approach]] — Çengel/Boles 2015 | 8ª ed.; Rankine, Brayton; solution manual (status: in-coda)
 
 ### Fondamenti Informatici
 - [[Toffalori et al - Teoria Computabilità Complessità]] — Toffalori et al. 2005 | MT, P=NP, Cook-Levin, Savitch, computazione quantistica (status: in-coda)
@@ -158,6 +181,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 
 - [[Teoria dei Sistemi]] — GST (Bertalanffy), cibernetica (Wiener), system dynamics (Forrester) (status: developing)
 - [[Termodinamica dei Fenomeni Irreversibili]] — TIP, Onsager, Prigogine, strutture dissipative (status: developing)
+- [[Meccanica Statistica]] — Boltzmann, ensemble di Gibbs, teorema H, FDT (status: developing)
 - [[Fenomeni Autocooperativi]] — sinergetica (Haken), iperciclo (Eigen), CAS (Kauffman) (status: developing)
 - [[Ingegneria dei Sistemi]] — INCOSE, V-Model, MBSE, SysML (status: developing)
 

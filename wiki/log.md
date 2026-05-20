@@ -21,6 +21,23 @@ Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
 
+## 2026-05-19 | batch-ingest | 15 Nuove Fonti (Prigogine + Bertalanffy + Termodinamica)
+
+- Sources: `.raw/` — 15 PDF (6 con testo estratto, 9 scansioni; tutti decriptati con qpdf)
+- Pages created (13 book + 1 concept):
+  [[von Bertalanffy - General System Theory]], [[Kondepudi Prigogine - Modern Thermodynamics]], [[Prigogine - From Being to Becoming]], [[Prigogine - Le Leggi del Caos]], [[Prigogine - Termodinamica Processi Irreversibili]], [[Prigogine Nicolis - Self-Organization Non-Equilibrium]], [[Prigogine Rice - Advances Chemical Physics Vol90]], [[Tolman - Principles Statistical Mechanics]], [[Reichl - Modern Course Statistical Physics]], [[De Groot Mazur - Non-Equilibrium Thermodynamics]], [[Demirel - Nonequilibrium Thermodynamics]], [[Moran Shapiro - Fundamentals Engineering Thermodynamics]], [[Cengel Boles - Thermodynamics Engineering Approach]], [[Meccanica Statistica]]
+- Pages updated: [[Termodinamica dei Fenomeni Irreversibili]], [[Fenomeni Autocooperativi]], [[Teoria dei Sistemi]], [[Wiki/books/_index]], [[Wiki/concepts/_index]], [[index]], [[hot]]
+- Addresses allocated: c-000003 → c-000016 (counter a 17)
+- Key cross-references found:
+  - **Bertalanffy ↔ Prigogine**: sistemi aperti (1940) → strutture dissipative (1977): il *cosa* biologico diventa il *perché* fisico
+  - **TIP lineare**: tre versioni del formalismo ora in vault — Prigogine (1967), De Groot/Mazur (1962), Demirel (2014)
+  - **Irreversibilità**: Tolman (H-theorem classico) → Prigogine (K-systems, operatore entropico): linea evolutiva da Boltzmann a Brussels
+  - **Strutture dissipative ↔ auto-organizzazione**: Nicolis/Prigogine (1977) è la fonte tecnica che giustifica [[Fenomeni Autocooperativi]]
+  - **Meccanica statistica → TIP**: Reichl (FDT) e Tolman (ensemble) sono il fondamento microscopico della TIP macroscopica
+  - **Bertalanffy (italiano + inglese)**: entrambe le edizioni in vault — utile per presentazioni in italiano
+
+---
+
 ## 2026-05-18 | batch-ingest | 16 Libri + 1 MD
 
 - Sources: `.raw/` — 15 PDF + 1 EPUB + 1 MD (decriptati con `qpdf`, convertiti con `pdftotext`)

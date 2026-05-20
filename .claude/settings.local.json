@@ -6,7 +6,9 @@
       "Bash(pdftotext -layout \"unlocked_L. von Bertalanffy - General System Theory.pdf\" \"txt/L. von Bertalanffy - General System Theory.txt\")",
       "Bash(./scripts/allocate-address.sh --peek)",
       "Bash(cat .vault-meta/address-counter.txt)",
-      "Bash(ls .vault-meta/)"
+      "Bash(ls .vault-meta/)",
+      "Bash(python3 -c \"import json; data = json.load\\(open\\('.raw/.manifest.json'\\)\\); print\\('VALID JSON'\\); print\\('sources count:', len\\(data['sources']\\)\\); print\\('address_map count:', len\\(data['address_map']\\)\\)\")",
+      "Bash(node -e \"const data = JSON.parse\\(require\\('fs'\\).readFileSync\\('.raw/.manifest.json', 'utf8'\\)\\); console.log\\('VALID JSON'\\); console.log\\('sources count:', Object.keys\\(data.sources\\).length\\); console.log\\('address_map count:', Object.keys\\(data.address_map\\).length\\);\")"
     ]
   }
 }

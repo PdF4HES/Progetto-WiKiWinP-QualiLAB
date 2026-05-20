@@ -90,10 +90,10 @@ Ingegnere, fondatore della Soft Systems Methodology (SSM). Distinzione tra siste
 - [[Bertuglia Vaio - Nonlinearity Chaos Complexity]] — nonlinearità, caos, complessità come estensione della GST
 - [[Boardman Sauser - Systems Thinking]] — Conceptagon; System of Systems ABCDE
 - [[Burgess - Thinking in Promises]] — agenti autonomi e cooperazione; Promise Theory come GST distribuita
+- [[von Bertalanffy - General System Theory]] — **la fonte primaria**: sistemi aperti, equifinalità, stato stazionario (EN+IT)
 
 ## Fonti da Acquisire
 
-- Bertalanffy, L. von (1968). *General System Theory*. Braziller.
 - Wiener, N. (1948). *Cybernetics*. MIT Press.
 - Forrester, J.W. (1961). *Industrial Dynamics*. MIT Press.
 - Meadows, D.H. (2008). *Thinking in Systems*. Chelsea Green.

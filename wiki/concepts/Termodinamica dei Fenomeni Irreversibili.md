@@ -112,11 +112,20 @@ La struttura si mantiene dissipando energia: ordine a spese di entropia ambienta
 
 - [[Reynolds - Energy]] — termodinamica classica (1° e 2° principio, entropia, efficienza di Carnot) come fondamento
 - [[Bertuglia Vaio - Nonlinearity Chaos Complexity]] — strutture dissipative come caso di complessità emergente (Parte 3)
+- [[Kondepudi Prigogine - Modern Thermodynamics]] — il testo principale di Prigogine sulla TIP e strutture dissipative (2ª ed. 2015)
+- [[Prigogine - From Being to Becoming]] — l'irreversibilità come proprietà fisica fondamentale; dinamica hamiltoniana
+- [[Prigogine - Le Leggi del Caos]] — presentazione divulgativa dell'irreversibilità e caos (italiano)
+- [[Prigogine - Termodinamica Processi Irreversibili]] — testo tecnico fondativo della TIP lineare (italiano)
+- [[Prigogine Nicolis - Self-Organization Non-Equilibrium]] — strutture dissipative; ordine attraverso le fluttuazioni
+- [[Prigogine Rice - Advances Chemical Physics Vol90]] — operatore entropico; irreversibilità intrinseca; tecnico
+- [[De Groot Mazur - Non-Equilibrium Thermodynamics]] — trattato formale completo della TIP; flussi e forze accoppiati
+- [[Demirel - Nonequilibrium Thermodynamics]] — TIP applicata a biofisica e ingegneria chimica; exergia
+- [[Moran Shapiro - Fundamentals Engineering Thermodynamics]] — termodinamica ingegneristica (equilibrio); base per capire le deviazioni
+- [[Cengel Boles - Thermodynamics Engineering Approach]] — manuale ingegneristico complementare a Moran/Shapiro
+- [[Tolman - Principles Statistical Mechanics]] — fondamento microscopico classico; il problema H che Prigogine critica
+- [[Reichl - Modern Course Statistical Physics]] — meccanica statistica moderna; FDT, Fokker-Planck, fluttuazioni
 
 ## Fonti da Acquisire
 
 - Prigogine, I. & Defay, R. (1954). *Chemical Thermodynamics*. Longmans.
 - Prigogine, I. & Stengers, I. (1979). *La Nouvelle Alliance*. Gallimard.
-- Prigogine, I. (1980). *From Being to Becoming*. W.H. Freeman.
-- de Groot, S.R. & Mazur, P. (1962). *Non-Equilibrium Thermodynamics*. North-Holland.
-- Kondepudi, D. & Prigogine, I. (1998). *Modern Thermodynamics*. Wiley.

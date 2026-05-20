@@ -18,32 +18,33 @@ Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
 
-2026-05-18: **Batch ingest completato** — 16 libri + 1 fonte MD ingeriti. PDF decriptati con qpdf, convertiti con pdftotext. Creati 16 pagine in wiki/books/. Domain pages aggiornate con link ai libri. La biblioteca del vault è ora completa e cross-referenziata.
+2026-05-19: **Batch ingest completato** — 15 nuove fonti. Cluster Prigogine completo (6 testi), Bertalanffy EN+IT, meccanica statistica (Tolman + Reichl), TIP moderna (De Groot/Mazur + Demirel), termodinamica ingegneristica (Moran/Shapiro + Çengel/Boles). Nuovo dominio [[Meccanica Statistica]] creato. 13 book pages + 1 concept page. Indirizzi c-000003→c-000016.
 
-2026-05-17: Scaffold completo del wiki per studio personale su sistemi, termodinamica irreversibile, fenomeni autocooperativi, ingegneria dei sistemi. Modalita D+E+F attivate.
+2026-05-18: Batch ingest 16 libri + 1 MD. PDF decriptati con qpdf, convertiti con pdftotext.
 
 ## Key Recent Facts
 
-- **16 libri ingeriti** (2026-05-18): GST, nonlinearità/caos, sistemi di sistemi, SE (SEBoK/Holt/Eisner/Wasson), ecologia (Begon), emergy (Odum), resilienza (Hollnagel), termodinamica (Reynolds), ecologia ambientale, computabilità (Toffalori), Promise Theory (Burgess)
-- PDF sorgente erano password-protected: decriptati con `qpdf --decrypt`, convertiti con `pdftotext -layout`
-- Cross-referenze chiave identificate: Volterra-Lotka appare in Bertuglia + Begon + Odum; STAMP di Leveson connette resilienza e SE; Promise Theory di Burgess formalizza i SoS di Boardman
-- Domain concept pages aggiornate: [[Teoria dei Sistemi]], [[Ingegneria dei Sistemi]], [[Fenomeni Autocooperativi]], [[Ecodinamica]], [[Ecofisica]], [[Termodinamica dei Fenomeni Irreversibili]]
-- Wiki riconfigurato da vault plugin-dev a vault di studio personale (modalita D+E+F)
-- 4 concept seed pages create: [[Teoria dei Sistemi]], [[Termodinamica dei Fenomeni Irreversibili]], [[Fenomeni Autocooperativi]], [[Ingegneria dei Sistemi]]
-- Output attesi: libro originale + lezioni universitarie + knowledge base permanente
+- **Biblioteca termodinamica ora completa** (2026-05-19): Prigogine (6 testi), De Groot/Mazur, Demirel, Tolman, Reichl, Moran/Shapiro, Çengel/Boles, von Bertalanffy EN+IT
+- **Cross-reference fondamentale Bertalanffy→Prigogine**: sistemi aperti (1940) → strutture dissipative (1977). Bertalanffy descrive il *cosa* biologico; Prigogine il *perché* fisico. Due testi ora disponibili su questo collegamento.
+- **Linea evolutiva TIP**: Onsager (1931, relazioni reciprocità) → Prigogine Termodinamica (1967, teorema min-entropia) → De Groot/Mazur (1962, TIP formale) → Kondepudi/Prigogine (2015, strutture dissipative) → Demirel (2014, applicazioni)
+- **Irreversibilità microscopica**: Tolman (H-theorem, 1938) → Prigogine From Being to Becoming (K-systems, operatore entropico, 1980) → Rice Vol90 (1997, formalizzazione tecnica)
+- **Nicolis/Prigogine 1977** era nella "Fonti da Acquisire" di [[Fenomeni Autocooperativi]] — ora acquisita
+- 6 PDF con testo estratto (qpdf+pdftotext); 9 scansioni (contenuto da conoscenza di addestramento)
 
 ## Recent Changes
 
-- **2026-05-18**: Created 16 book pages in wiki/books/: Skyttner, Bertuglia/Vaio, Gharajedaghi, SEBoK, Holt, Eisner, Boardman/Sauser, Wasson, Satzinger, Begon, Odum, Hollnagel, Reynolds, Weiner, Toffalori, Burgess
-- **2026-05-18**: Updated domain pages with book links: [[Teoria dei Sistemi]], [[Ingegneria dei Sistemi]], [[Fenomeni Autocooperativi]], [[Ecodinamica]], [[Ecofisica]], [[Termodinamica dei Fenomeni Irreversibili]]
-- **2026-05-18**: Updated [[Wiki/books/_index]], [[index]] (total pages 56, sources 17)
-- 2026-05-17: Created scaffold, domain concept pages, templates
+- **2026-05-19**: Creati 13 book pages: Bertalanffy, Kondepudi/Prigogine, Prigogine×4, Tolman, Reichl, De Groot/Mazur, Demirel, Moran/Shapiro, Çengel/Boles
+- **2026-05-19**: Creata concept page [[Meccanica Statistica]] (c-000016)
+- **2026-05-19**: Aggiornati [[Termodinamica dei Fenomeni Irreversibili]], [[Fenomeni Autocooperativi]], [[Teoria dei Sistemi]] (fonti disponibili + rimosse da "da acquisire")
+- **2026-05-19**: Aggiornati [[Wiki/books/_index]], [[Wiki/concepts/_index]], [[index]] (68 pages, 32 sources)
+- 2026-05-18: 16 book pages create (vedi log)
 
 ## Active Threads
 
-- Prossimo passo: leggere i libri; iniziare con Skyttner (cap. 2 per fondamenti GST) e Bertuglia (cap. 14-23 per caos)
-- Domanda aperta principale: come si collega formalmente la sinergetica di Haken alla TIP di Prigogine?
-- Cross-reference chiave da esplorare: Volterra-Lotka in Bertuglia/Begon/Odum; STAMP in Hollnagel/Leveson vs. V-model SE
+- **Prossimo passo lettura**: iniziare con [[von Bertalanffy - General System Theory]] (cap. 5–6: sistemi aperti) + [[Prigogine Nicolis - Self-Organization Non-Equilibrium]] (cap. 1–3: strutture dissipative)
+- **Domanda aperta fondamentale**: come si connette formalmente il teorema di minima produzione di entropia (Prigogine, regime lineare) al "bordo del caos" di Kauffman (CAS)?
+- **Bridge da costruire**: Bertalanffy stato stazionario ↔ Prigogine stato stazionario non-lineare ↔ strutture dissipative ↔ auto-organizzazione biologica
+- **Termodinamica ingegneristica vs. TIP**: Çengel/Boles e Moran/Shapiro danno i fondamenti classici; Demirel è il ponte verso la TIP applicata
 - Roadmap studio in [[Percorso di Studio]]
 
 ## Plugin State (storico, non attivo)

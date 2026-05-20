@@ -40,4 +40,16 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 
 ---
 
-## Add new concepts here as they are extracted from sources.
+## Sistemi / Teoria
+
+- [[Teoria dei Sistemi]] — GST (Bertalanffy), cibernetica (Wiener), system dynamics (Forrester) (developing)
+- [[Ingegneria dei Sistemi]] — INCOSE, V-Model, MBSE, SysML (developing)
+
+## Termodinamica
+
+- [[Termodinamica dei Fenomeni Irreversibili]] — TIP, Onsager, Prigogine, strutture dissipative (developing)
+- [[Meccanica Statistica]] — Boltzmann, ensemble di Gibbs, teorema H, FDT (developing)
+
+## Auto-Organizzazione
+
+- [[Fenomeni Autocooperativi]] — sinergetica (Haken), strutture dissipative (Prigogine), CAS (Kauffman) (developing)
