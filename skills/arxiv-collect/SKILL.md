@@ -32,7 +32,7 @@ Calcola le date:
 - `date_to` = oggi (formato YYYYMMDD)
 - `date_from` = oggi - `days_back` giorni (formato YYYYMMDD)
 
-Raggruppa le categorie abilitate per `group`: Physics | Math | CS.
+Raggruppa le categorie abilitate per arxiv_group: Physics | Math | CS.
 
 Mostra all'utente il piano prima di procedere:
 ```

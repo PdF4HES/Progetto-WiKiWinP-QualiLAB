@@ -78,7 +78,7 @@ doi: ""
 primary_category: "{primary_category}"
 categories:
 {categories_yaml}
-group: {group}
+group: {arxiv_group}
 submitted: {submitted}
 ingested: {today}
 status: unread

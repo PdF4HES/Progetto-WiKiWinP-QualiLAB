@@ -64,7 +64,7 @@ TABLE
   primary_category AS "Categoria",
   submitted AS "Data"
 FROM "Wiki/papers"
-WHERE type = "paper" AND `group` = "Physics"
+WHERE type = "paper" AND arxiv_group = "Physics"
 SORT submitted DESC
 LIMIT 20
 ```
@@ -78,7 +78,7 @@ TABLE
   primary_category AS "Categoria",
   submitted AS "Data"
 FROM "Wiki/papers"
-WHERE type = "paper" AND `group` = "Math"
+WHERE type = "paper" AND arxiv_group = "Math"
 SORT submitted DESC
 LIMIT 20
 ```
@@ -92,7 +92,7 @@ TABLE
   primary_category AS "Categoria",
   submitted AS "Data"
 FROM "Wiki/papers"
-WHERE type = "paper" AND `group` = "CS"
+WHERE type = "paper" AND arxiv_group = "CS"
 SORT submitted DESC
 LIMIT 20
 ```
@@ -109,7 +109,7 @@ TABLE WITHOUT ID
   length(filter(rows, (r) => r.status = "read")) AS "Letti"
 FROM "Wiki/papers"
 WHERE type = "paper"
-GROUP BY `group`
+GROUP BY arxiv_group
 SORT length(rows) DESC
 ```
 
