@@ -1,7 +1,7 @@
 ---
 type: meta
 title: Papers Index
-updated: 2026-05-17
+updated: 2026-05-21
 tags:
   - meta
   - papers
@@ -9,35 +9,109 @@ tags:
 status: active
 related:
   - "[[index]]"
-  - "[[Sintesi del Campo]]"
-  - "[[Wiki/gaps/_index]]"
-  - "[[Wiki/concepts/_index]]"
+  - "[[concepts/_index]]"
+  - "[[gaps/_index]]"
 ---
 
-# Papers
+# Papers — ArXiv Collection
 
-Indice dei paper accademici annotati.
+Raccolta paper da ArXiv · Aggiornata da `/arxiv-collect`
 
-Navigation: [[index]] | [[Sintesi del Campo]] | [[Wiki/gaps/_index]]
+Navigation: [[index]] | [[concepts/_index|Concepts]] | [[gaps/_index|Gaps]]
 
 ---
 
-## Termodinamica dei Fenomeni Irreversibili
+## Tutti i Paper
 
-<!-- paper:: [[Titolo Paper]] — autore, anno, claim principale -->
+```dataview
+TABLE
+  title as "Titolo",
+  authors[0] as "Primo Autore",
+  year as "Anno",
+  primary_category as "Categoria",
+  status as "Stato",
+  rating as "Rating"
+FROM "wiki/papers"
+WHERE type = "paper"
+SORT ingested DESC
+LIMIT 50
+```
 
-## Fenomeni Autocooperativi e Auto-organizzazione
-
-<!-- paper:: [[Titolo Paper]] — autore, anno, claim principale -->
-
-## Teoria Generale dei Sistemi
-
-<!-- paper:: [[Titolo Paper]] — autore, anno, claim principale -->
-
-## Ingegneria dei Sistemi
-
-<!-- paper:: [[Titolo Paper]] — autore, anno, claim principale -->
+---
 
 ## Da Leggere
 
-<!-- paper:: [[Titolo Paper]] — autore, anno -->
+```dataview
+TABLE
+  title as "Titolo",
+  primary_category as "Categoria",
+  submitted as "Submission"
+FROM "wiki/papers"
+WHERE type = "paper" AND status = "unread"
+SORT submitted DESC
+```
+
+---
+
+## Per Gruppo
+
+### Physics
+
+```dataview
+TABLE
+  title as "Titolo",
+  authors[0] as "Autore",
+  primary_category as "Categoria",
+  submitted as "Data"
+FROM "wiki/papers"
+WHERE type = "paper" AND group = "Physics"
+SORT submitted DESC
+LIMIT 20
+```
+
+### Mathematics
+
+```dataview
+TABLE
+  title as "Titolo",
+  authors[0] as "Autore",
+  primary_category as "Categoria",
+  submitted as "Data"
+FROM "wiki/papers"
+WHERE type = "paper" AND group = "Math"
+SORT submitted DESC
+LIMIT 20
+```
+
+### Computer Science
+
+```dataview
+TABLE
+  title as "Titolo",
+  authors[0] as "Autore",
+  primary_category as "Categoria",
+  submitted as "Data"
+FROM "wiki/papers"
+WHERE type = "paper" AND group = "CS"
+SORT submitted DESC
+LIMIT 20
+```
+
+---
+
+## Statistiche
+
+```dataview
+TABLE WITHOUT ID
+  group as "Gruppo",
+  length(rows) as "Paper",
+  length(filter(rows, (r) => r.status = "unread")) as "Non letti",
+  length(filter(rows, (r) => r.status = "read")) as "Letti"
+FROM "wiki/papers"
+WHERE type = "paper"
+GROUP BY group
+```
+
+---
+
+<!-- I paper vengono aggiunti automaticamente dall'agente /arxiv-collect -->
