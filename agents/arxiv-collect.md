@@ -51,7 +51,7 @@ For each paper, check if it already exists in the vault:
 
 ```bash
 # Check by arxiv_id in frontmatter
-grep -r "arxiv_id: \"<ID>\"" wiki/papers/ --include="*.md" -l
+grep -r "arxiv_id: \"<ID>\"" Wiki/papers/ --include="*.md" -l
 ```
 
 Skip any paper whose arxiv_id is already present. Log skipped papers as "already in vault".
@@ -131,7 +131,7 @@ Fetched: N papers from ArXiv
 New: N (created notes)
 Skipped: N (already in vault)
 New files:
-  - wiki/papers/{arxiv_id}.md — {title[:60]}
+  - Wiki/papers/{arxiv_id}.md — {title[:60]}
   - ...
 ```
 

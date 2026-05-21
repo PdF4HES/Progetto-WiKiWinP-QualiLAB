@@ -25,13 +25,13 @@ Navigation: [[index]] | [[concepts/_index|Concepts]] | [[gaps/_index|Gaps]]
 
 ```dataview
 TABLE
-  title as "Titolo",
-  authors[0] as "Primo Autore",
-  year as "Anno",
-  primary_category as "Categoria",
-  status as "Stato",
-  rating as "Rating"
-FROM "wiki/papers"
+  title AS "Titolo",
+  authors[0] AS "Primo Autore",
+  year AS "Anno",
+  primary_category AS "Categoria",
+  status AS "Stato",
+  rating AS "Rating"
+FROM "Wiki/papers"
 WHERE type = "paper"
 SORT ingested DESC
 LIMIT 50
@@ -43,10 +43,10 @@ LIMIT 50
 
 ```dataview
 TABLE
-  title as "Titolo",
-  primary_category as "Categoria",
-  submitted as "Submission"
-FROM "wiki/papers"
+  title AS "Titolo",
+  primary_category AS "Categoria",
+  submitted AS "Submission"
+FROM "Wiki/papers"
 WHERE type = "paper" AND status = "unread"
 SORT submitted DESC
 ```
@@ -59,12 +59,12 @@ SORT submitted DESC
 
 ```dataview
 TABLE
-  title as "Titolo",
-  authors[0] as "Autore",
-  primary_category as "Categoria",
-  submitted as "Data"
-FROM "wiki/papers"
-WHERE type = "paper" AND group = "Physics"
+  title AS "Titolo",
+  authors[0] AS "Autore",
+  primary_category AS "Categoria",
+  submitted AS "Data"
+FROM "Wiki/papers"
+WHERE type = "paper" AND `group` = "Physics"
 SORT submitted DESC
 LIMIT 20
 ```
@@ -73,12 +73,12 @@ LIMIT 20
 
 ```dataview
 TABLE
-  title as "Titolo",
-  authors[0] as "Autore",
-  primary_category as "Categoria",
-  submitted as "Data"
-FROM "wiki/papers"
-WHERE type = "paper" AND group = "Math"
+  title AS "Titolo",
+  authors[0] AS "Autore",
+  primary_category AS "Categoria",
+  submitted AS "Data"
+FROM "Wiki/papers"
+WHERE type = "paper" AND `group` = "Math"
 SORT submitted DESC
 LIMIT 20
 ```
@@ -87,12 +87,12 @@ LIMIT 20
 
 ```dataview
 TABLE
-  title as "Titolo",
-  authors[0] as "Autore",
-  primary_category as "Categoria",
-  submitted as "Data"
-FROM "wiki/papers"
-WHERE type = "paper" AND group = "CS"
+  title AS "Titolo",
+  authors[0] AS "Autore",
+  primary_category AS "Categoria",
+  submitted AS "Data"
+FROM "Wiki/papers"
+WHERE type = "paper" AND `group` = "CS"
 SORT submitted DESC
 LIMIT 20
 ```
@@ -103,13 +103,14 @@ LIMIT 20
 
 ```dataview
 TABLE WITHOUT ID
-  group as "Gruppo",
-  length(rows) as "Paper",
-  length(filter(rows, (r) => r.status = "unread")) as "Non letti",
-  length(filter(rows, (r) => r.status = "read")) as "Letti"
-FROM "wiki/papers"
+  key AS "Gruppo",
+  length(rows) AS "Totale",
+  length(filter(rows, (r) => r.status = "unread")) AS "Non letti",
+  length(filter(rows, (r) => r.status = "read")) AS "Letti"
+FROM "Wiki/papers"
 WHERE type = "paper"
-GROUP BY group
+GROUP BY `group`
+SORT length(rows) DESC
 ```
 
 ---
