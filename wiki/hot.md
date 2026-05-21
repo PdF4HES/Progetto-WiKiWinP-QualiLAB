@@ -9,15 +9,15 @@ tags:
 
 # Hot Cache
 
-Ultima sessione: arxiv-collect Batch 2 — 2026-05-21
+Ultima sessione: arxiv-collect Batch 3 (completamento) — 2026-05-21
 Periodo coperto: 2026-04-21 → 2026-05-21 (30 giorni)
-Paper totali nel vault: 126 (44 batch 1 + 82 batch 2)
-Categorie completate: 29/46 · Da ritentare: 17 (rate-limit)
+Paper totali nel vault: 196 (44 + 82 + 70)
+Tutte le 46 categorie completate (2 a 0 risultati: math.IT, cs.SY)
 
-## Paper più recenti (Batch 2)
+## Ultimi paper aggiunti
 
-- [[2605.21457]] — An Exponential Sample-Complexity Advantage for Coherent Quantum Inference · `quant-ph`
-- [[2605.21445]] — Error analysis of FEM for parametric mean curvature flow · `math.NA`
-- [[2605.21382]] — Flow loops and quantum groups · `math.GT`
-- [[2605.21271]] — Dark solitons in the fractional NLS equation · `nlin.PS`
-- [[2605.21166]] — Modified Painlevé systems with meromorphic solutions · `nlin.SI`
+- [[2605.21356]] — A simple model of co-emergence of grid and place fields · `q-bio.NC`
+- [[2605.21200]] — Tao's Equational Proof Challenge Accepted · `cs.LO`
+- [[2605.21189]] — Martin's Axiom, Large Continuum and Global Sigma1n-Uniformization · `math.LO`
+- [[2605.21468]] — You Only Need Minimal RLVR Training · `cs.LG`
+- [[2605.20844]] — Brunnian braids and double shuffle Lie algebra · `math.QA`
