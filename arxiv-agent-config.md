@@ -4,7 +4,7 @@ version: "1.0"
 last_run: null
 settings:
   max_results_per_category: 5
-  days_back: 7
+  days_back: 30
   papers_path: "wiki/papers"
   sort_by: submittedDate
   sort_order: descending
