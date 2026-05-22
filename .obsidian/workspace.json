@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/papers/_index.md",
+                "file": "Wiki/concepts/Fisica Biologica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Fisica Biologica"
             }
           }
         ]
@@ -212,6 +212,7 @@
   },
   "active": "511e362e88dc4e50",
   "lastOpenFiles": [
+    "Wiki/papers/_index.md",
     "Wiki/concepts/Equazioni alle Derivate Parziali.md",
     "Wiki/concepts/Neuroscienze Computazionali.md",
     "Wiki/concepts/Logica e Fondamenti.md",
@@ -247,7 +248,6 @@
     "Wiki/papers/2605.21262.md",
     "Wiki/papers/2605.21303.md",
     "Wiki/papers/2605.21335.md",
-    "Wiki/papers/2605.21385.md",
     "Wiki/meta/workflow-loop.gif",
     "Wiki/meta/dragonscale-frontier-graph.png",
     "Wiki/meta/dragonscale-6-test-flow.png",
