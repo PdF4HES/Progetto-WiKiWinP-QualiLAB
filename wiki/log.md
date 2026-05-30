@@ -1,13 +1,23 @@
 ---
 type: meta
 title: Operation Log
-updated: 2026-05-21
+updated: 2026-05-30
 tags:
   - meta
   - log
 ---
 
 # Operation Log
+
+## 2026-05-30 arxiv-collect | Run completo — 46 categorie | 2026-04-30→2026-05-30
+
+- Categorie processate: 46 (tutti i gruppi: 15 Physics, 19 Math, 12 CS)
+- Paper nuovi: 184 (totale vault: 380)
+- Paper saltati (duplicati): variabile per categoria (cross-listed)
+- Errori: HTTP 429 rate-limiting (risolto via pagine abstract individuali); math.IT=0 risultati
+- Periodo: 2026-04-30 → 2026-05-30 (30 giorni, primo run esteso)
+
+---
 
 ## 2026-05-21 arxiv-collect | Batch 3 — 17 categorie recuperate | 2026-04-21→2026-05-21
 
