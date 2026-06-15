@@ -8,7 +8,10 @@
       "Bash(cat .vault-meta/address-counter.txt)",
       "Bash(ls .vault-meta/)",
       "Bash(python3 -c \"import json; data = json.load\\(open\\('.raw/.manifest.json'\\)\\); print\\('VALID JSON'\\); print\\('sources count:', len\\(data['sources']\\)\\); print\\('address_map count:', len\\(data['address_map']\\)\\)\")",
-      "Bash(node -e \"const data = JSON.parse\\(require\\('fs'\\).readFileSync\\('.raw/.manifest.json', 'utf8'\\)\\); console.log\\('VALID JSON'\\); console.log\\('sources count:', Object.keys\\(data.sources\\).length\\); console.log\\('address_map count:', Object.keys\\(data.address_map\\).length\\);\")"
+      "Bash(node -e \"const data = JSON.parse\\(require\\('fs'\\).readFileSync\\('.raw/.manifest.json', 'utf8'\\)\\); console.log\\('VALID JSON'\\); console.log\\('sources count:', Object.keys\\(data.sources\\).length\\); console.log\\('address_map count:', Object.keys\\(data.address_map\\).length\\);\")",
+      "WebFetch(domain:export.arxiv.org)",
+      "mcp__claude_ai_Search1__search",
+      "WebFetch(domain:arxiv.org)"
     ]
   }
 }

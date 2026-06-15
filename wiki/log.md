@@ -1,13 +1,22 @@
 ---
 type: meta
 title: Operation Log
-updated: 2026-05-30
+updated: 2026-06-15
 tags:
   - meta
   - log
 ---
 
 # Operation Log
+
+## 2026-06-15 arxiv-collect | settimanale | 20260608→20260615
+
+- Categorie processate: 46
+- Paper nuovi: 185
+- Paper saltati: 32
+- Errori: 0 (math.IT=0 risultati, cs.SY=0 risultati)
+
+---
 
 ## 2026-05-30 arxiv-collect | Run completo — 46 categorie | 2026-04-30→2026-05-30
 

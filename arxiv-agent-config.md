@@ -1,7 +1,7 @@
 ---
 agent: arxiv-collect
 version: "1.0"
-last_run: "2026-05-30"
+last_run: "2026-06-15"
 settings:
   max_results_per_category: 5
   days_back: 7
