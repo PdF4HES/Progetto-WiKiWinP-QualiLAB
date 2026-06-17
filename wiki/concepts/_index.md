@@ -1,12 +1,11 @@
 ---
 type: meta
 title: "Concepts Index"
-updated: 2026-04-07
+updated: null
 tags:
   - meta
   - index
   - concept
-domain: knowledge-management
 status: evergreen
 related:
   - "[[index]]"
@@ -14,9 +13,6 @@ related:
   - "[[Wiki Map]]"
   - "[[Hot Cache]]"
   - "[[LLM Wiki Pattern]]"
-  - "[[Compounding Knowledge]]"
-  - "[[LLM Wiki Pattern]]"
-  - "[[Hot Cache]]"
   - "[[Compounding Knowledge]]"
 ---
 
@@ -34,22 +30,12 @@ All concept pages — ideas, patterns, and frameworks extracted from sources.
 - [[Hot Cache]] — ~500-word session context file, updated after every ingest
 - [[Compounding Knowledge]] — why the wiki grows more valuable over time, unlike RAG
 - [[DragonScale Memory]] — memory-layer spec: fold operator, deterministic page addresses, semantic tiling, boundary-first autoresearch (status: shipped v0.4, all four mechanisms opt-in)
-- [[Persistent Wiki Artifact]]: durable Markdown page as the LLM's memory object (developing)
-- [[Source-First Synthesis]]: provenance discipline for LLM wiki layers (developing)
-- [[Query-Time Retrieval]]: query synthesis with citations, complementary to Obsidian search (developing)
+- [[Persistent Wiki Artifact]] — durable Markdown page as the LLM's memory object (developing)
+- [[Source-First Synthesis]] — provenance discipline for LLM wiki layers (developing)
+- [[Query-Time Retrieval]] — query synthesis with citations, complementary to Obsidian search (developing)
 
 ---
 
-## Sistemi / Teoria
+## Domain Concepts
 
-- [[Teoria dei Sistemi]] — GST (Bertalanffy), cibernetica (Wiener), system dynamics (Forrester) (developing)
-- [[Ingegneria dei Sistemi]] — INCOSE, V-Model, MBSE, SysML (developing)
-
-## Termodinamica
-
-- [[Termodinamica dei Fenomeni Irreversibili]] — TIP, Onsager, Prigogine, strutture dissipative (developing)
-- [[Meccanica Statistica]] — Boltzmann, ensemble di Gibbs, teorema H, FDT (developing)
-
-## Auto-Organizzazione
-
-- [[Fenomeni Autocooperativi]] — sinergetica (Haken), strutture dissipative (Prigogine), CAS (Kauffman) (developing)
+<!-- Aggiungi qui i concetti specifici del dominio di questo wiki -->

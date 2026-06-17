@@ -1,7 +1,7 @@
 ---
 type: meta
 title: Goals Index
-updated: 2026-05-17
+updated: null
 tags:
   - meta
   - goals
@@ -9,21 +9,20 @@ tags:
 status: active
 related:
   - "[[index]]"
-  - "[[Percorso di Studio]]"
   - "[[Wiki/journal/_index]]"
 ---
 
 # Obiettivi
 
-Obiettivi di studio personali e progressione.
+Obiettivi e roadmap del progetto.
 
-Navigation: [[index]] | [[Percorso di Studio]] | [[Wiki/journal/_index]]
+Navigation: [[index]] | [[Wiki/journal/_index]]
 
 ---
 
 ## Attivi
 
-- [[Percorso di Studio]] — roadmap complessiva dello studio sui sistemi e la termodinamica
+<!-- goal:: [[Titolo]] — descrizione obiettivo -->
 
 ## Completati
 
