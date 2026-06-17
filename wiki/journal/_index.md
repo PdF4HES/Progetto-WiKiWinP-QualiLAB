@@ -1,7 +1,7 @@
 ---
 type: meta
 title: Journal Index
-updated: null
+updated: 2026-05-17
 tags:
   - meta
   - journal
@@ -13,12 +13,18 @@ related:
   - "[[hot]]"
 ---
 
-# Journal
+# Journal di Studio
 
-Registro cronologico delle sessioni di lavoro.
+Registro cronologico della progressione dello studio. Ogni sessione significativa ha una voce.
 
 Navigation: [[index]] | [[Wiki/goals/_index]] | [[hot]]
 
 ---
+
+## 2026
+
+### Maggio
+
+- [[2026-05-17-inizio]] — avvio del wiki: scaffolding struttura D+E+F, domini definiti
 
 <!-- journal:: [[YYYY-MM-DD-slug]] — tema sessione -->
