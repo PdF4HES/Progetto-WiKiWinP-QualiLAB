@@ -18,7 +18,9 @@
       "Bash(rm Agents/arxiv-collect.md)",
       "Bash(rm -rf Skills/arxiv-collect/)",
       "Bash(rm -rf Skills/arxiv-concepts/)",
-      "Bash(rm -rf Wiki/papers/)"
+      "Bash(rm -rf Wiki/papers/)",
+      "Bash(git push *)",
+      "Bash(grep *)"
     ]
   }
 }
