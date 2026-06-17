@@ -20,7 +20,8 @@
       "Bash(rm -rf Skills/arxiv-concepts/)",
       "Bash(rm -rf Wiki/papers/)",
       "Bash(git push *)",
-      "Bash(grep *)"
+      "Bash(grep *)",
+      "Bash(git config *)"
     ]
   }
 }
