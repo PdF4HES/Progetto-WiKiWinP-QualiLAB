@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-05-17T00:00:00
+updated: 2026-06-13
 tags:
   - meta
   - hot-cache
@@ -18,35 +18,26 @@ Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
 
-2026-05-19: **Batch ingest completato** — 15 nuove fonti. Cluster Prigogine completo (6 testi), Bertalanffy EN+IT, meccanica statistica (Tolman + Reichl), TIP moderna (De Groot/Mazur + Demirel), termodinamica ingegneristica (Moran/Shapiro + Çengel/Boles). Nuovo dominio [[Meccanica Statistica]] creato. 13 book pages + 1 concept page. Indirizzi c-000003→c-000016.
-
-2026-05-18: Batch ingest 16 libri + 1 MD. PDF decriptati con qpdf, convertiti con pdftotext.
+2026-06-13
 
 ## Key Recent Facts
 
-- **Biblioteca termodinamica ora completa** (2026-05-19): Prigogine (6 testi), De Groot/Mazur, Demirel, Tolman, Reichl, Moran/Shapiro, Çengel/Boles, von Bertalanffy EN+IT
-- **Cross-reference fondamentale Bertalanffy→Prigogine**: sistemi aperti (1940) → strutture dissipative (1977). Bertalanffy descrive il *cosa* biologico; Prigogine il *perché* fisico. Due testi ora disponibili su questo collegamento.
-- **Linea evolutiva TIP**: Onsager (1931, relazioni reciprocità) → Prigogine Termodinamica (1967, teorema min-entropia) → De Groot/Mazur (1962, TIP formale) → Kondepudi/Prigogine (2015, strutture dissipative) → Demirel (2014, applicazioni)
-- **Irreversibilità microscopica**: Tolman (H-theorem, 1938) → Prigogine From Being to Becoming (K-systems, operatore entropico, 1980) → Rice Vol90 (1997, formalizzazione tecnica)
-- **Nicolis/Prigogine 1977** era nella "Fonti da Acquisire" di [[Fenomeni Autocooperativi]] — ora acquisita
-- 6 PDF con testo estratto (qpdf+pdftotext); 9 scansioni (contenuto da conoscenza di addestramento)
+- This vault now contains a comprehensive knowledge base on clinical laboratory quality management and accreditation: **ISO 15189:2022/2024**, **ACCREDIA** accreditation processes, **SIPMeL** clinical practice guidance and Choosing Wisely lists across roughly 10 study groups, **EU MDR/IVDR** regulatory framework, and the family of generic **UNI organizational standards** for quality management, risk management, business continuity, occupational health and safety, knowledge management, asset management, facility management, and equipment maintenance.
+- Vault totals: **124 source documents** ingested, producing **~196 wiki pages**, spanning address range **c-000001 to c-000177**.
+- The **full 12-cluster ingest project is now COMPLETE**.
 
 ## Recent Changes
 
-- **2026-05-19**: Creati 13 book pages: Bertalanffy, Kondepudi/Prigogine, Prigogine×4, Tolman, Reichl, De Groot/Mazur, Demirel, Moran/Shapiro, Çengel/Boles
-- **2026-05-19**: Creata concept page [[Meccanica Statistica]] (c-000016)
-- **2026-05-19**: Aggiornati [[Termodinamica dei Fenomeni Irreversibili]], [[Fenomeni Autocooperativi]], [[Teoria dei Sistemi]] (fonti disponibili + rimosse da "da acquisire")
-- **2026-05-19**: Aggiornati [[Wiki/books/_index]], [[Wiki/concepts/_index]], [[index]] (68 pages, 32 sources)
-- 2026-05-18: 16 book pages create (vedi log)
+This session completed the final clusters of the ingest project (addresses c-000122–c-000177):
+
+- **Cluster 10** (18 docs): SIPMeL Choosing Wisely lists from multiple study groups (autoimmunology, endocrinology/metabolism, EBLM lists I & II, Laboratorio Green/sustainability) plus miscellaneous appropriateness-related sources, consolidating the **Appropriatezza Diagnostica e Choosing Wisely** hub (c-000081) across SIPMeL study groups, EBLM evidence-based methodology, LIS infrastructure, POCT updates, lipid diagnostics, monoclonal gammopathies, lupus anticoagulant/thrombophilia, and PSA/colorectal cancer markers.
+- **Cluster 11** (10 docs): UNI generic management-system standards — ISO 9001, ISO 9004 (durable success/self-assessment), ISO 31000 (risk management), ISO 22301 (business continuity), ISO 45001/45002 (occupational health & safety), ISO 29995 (training vocabulary), ISO 30401 (knowledge management), ISO 55001/55002 (asset management) — all newly cross-linked into the central **Sistema di Gestione per la Qualità** hub (c-000003) as an "integrated management system" layer around ISO 15189.
+- **Cluster 12** (9 docs): UNI facility management (ISO 41001/41011/41012) and maintenance terminology/standards (13306, 10147, 11063, 10366, 10685, 15341), extending the asset-management layer to the built environment and equipment lifecycle.
+- **Consolidated Corso ISO 15189:2024 summary**: 16 ACCREDIA training decks distilled into 2 pages, including a new **Metodologia di Audit Interno (ISO 19011)** concept (c-000177) covering audit principles, program management (PDCA), and auditor competence — cross-linked with the existing **Audit Interno e Visita Ispettiva** page (c-000014).
+
+A lightweight cross-reference check confirmed the major new hub concepts (ISO 31000, SSL, Facility Management, asset/maintenance terminology) are already correctly linked from the SGQ hub, the Choosing Wisely hub already references all relevant cluster 5/10 sources, and the new ISO 19011 page and ISO 31000 page already cross-link with Audit Interno e Visita Ispettiva. No additional cross-link edits were needed.
 
 ## Active Threads
 
-- **Prossimo passo lettura**: iniziare con [[von Bertalanffy - General System Theory]] (cap. 5–6: sistemi aperti) + [[Prigogine Nicolis - Self-Organization Non-Equilibrium]] (cap. 1–3: strutture dissipative)
-- **Domanda aperta fondamentale**: come si connette formalmente il teorema di minima produzione di entropia (Prigogine, regime lineare) al "bordo del caos" di Kauffman (CAS)?
-- **Bridge da costruire**: Bertalanffy stato stazionario ↔ Prigogine stato stazionario non-lineare ↔ strutture dissipative ↔ auto-organizzazione biologica
-- **Termodinamica ingegneristica vs. TIP**: Çengel/Boles e Moran/Shapiro danno i fondamenti classici; Demirel è il ponte verso la TIP applicata
-- Roadmap studio in [[Percorso di Studio]]
-
-## Plugin State (storico, non attivo)
-
-Il contenuto precedente del vault (sviluppo plugin claude-obsidian v1.6.0, DragonScale) e conservato in wiki/meta/ e wiki/concepts/ originali. Non eliminato: e context storico utile sul pattern LLM Wiki.
+- `wiki/index.md` was just rewritten with a full catalog organized into "Laboratorio Clinico — Quadro Normativo" and "Diagnostica di Laboratorio per Area Clinica" sections.
+- Suggested next step: a dedicated **"lint the wiki" pass** — check for orphan pages, broken `[[wikilink]]` references, and inconsistent `related`/`sources` frontmatter across the ~196 pages, given the large volume of content created across 12 clusters.

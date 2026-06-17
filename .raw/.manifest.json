@@ -1,227 +1,1632 @@
 {
-  "version": 1,
-  "created": "2026-04-23",
-  "description": "Ingest delta tracker and address map for the claude-obsidian vault. Do not hand-edit; wiki-ingest maintains this.",
   "sources": {
-    ".raw/claude-obsidian-ecosystem-research.md": {
-      "hash": "A2EE4793F57644CF781F1043B87D7A30",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/sources/claude-obsidian-ecosystem-research.md"],
-      "pages_updated": ["wiki/index.md"]
-    },
-    ".raw/L. Skyttner - General Systems Theory - Problems, Perspectives, Practice (2nd ed.).pdf": {
-      "hash": "493EFCF8C55FA84815E416F076940565",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Skyttner - General Systems Theory.md"],
-      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md", "wiki/books/_index.md", "wiki/index.md"]
-    },
-    ".raw/C. S. Bertuglia, F. Vaio - Nonlinearity, Chaos, and Complexity. The Dynamics of Natural and Social Systems.pdf": {
-      "hash": "783BE4CBFB4B614187615A57924256F0",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Bertuglia Vaio - Nonlinearity Chaos Complexity.md"],
-      "pages_updated": ["wiki/concepts/Fenomeni Autocooperativi.md", "wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"]
-    },
-    ".raw/J. Gharajedaghi - Systems Thinking, Managing Chaos and Complexity - A Platform for Designing Business Architecture.pdf": {
-      "hash": "3FA69A49EDF959F013FA59A9E68E0F6C",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Gharajedaghi - Systems Thinking.md"],
-      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md", "wiki/concepts/Ingegneria dei Sistemi.md"]
-    },
-    ".raw/SEBoK - A Guide to the Systems Engineering Body of Knowledge (v.2.7).pdf": {
-      "hash": "E5FFC20C09D38641AA62859892471B4D",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/SEBoK v2.7.md"],
-      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
-    },
-    ".raw/J. Holt - Systems Engineering Demystified.pdf": {
-      "hash": "60B736BCA3B1D126EC974D3D9CDBAE71",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Holt - Systems Engineering Demystified.md"],
-      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
-    },
-    ".raw/H. Eisner -  Essentials of Project and Systems Engineering Management.pdf": {
-      "hash": "FFD888AA54B7C049AE66D3E71CE6E9A4",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Eisner - Essentials SE Management.md"],
-      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
-    },
-    ".raw/J. Boardman, B. Sauser - Systems Thinking Coping with 21st Century Problems.pdf": {
-      "hash": "80118BF0A4D5B61148D4652EF86CB80F",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Boardman Sauser - Systems Thinking.md"],
-      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md", "wiki/concepts/Ingegneria dei Sistemi.md"]
-    },
-    ".raw/J. W. Satzinger, R. B. Jackson, S. D. Burd - System Analysis & Design in a Changing World.pdf": {
-      "hash": "3693FA604BA0E01637AE223A169DD184",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Satzinger Jackson Burd - System Analysis Design.md"],
-      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
-    },
-    ".raw/C. S. Wasson - System Analysis, Design and Development - Concepts, Principles, and Practices.pdf": {
-      "hash": "8FD7AEBE55B265840AA5E1F05B25B89F",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Wasson - System Analysis Design Development.md"],
-      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
-    },
-    ".raw/M. Begon, C. R. Townsend, J. L. Harper - Ecology, from Individuals to Ecosystems.pdf": {
-      "hash": "4E43C850759F724D0C8739DA0FEE931C",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Begon Townsend Harper - Ecology.md"],
-      "pages_updated": ["wiki/natural-systems/Ecodinamica.md", "wiki/natural-systems/Ecofisica.md"]
-    },
-    ".raw/H. T. Odum, E. C. Odum - Modeling for All Scales - An Introduction to System Simulation.pdf": {
-      "hash": "A2B90E6C57DB5381963F28EB243F1F62",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Odum Odum - Modeling for All Scales.md"],
-      "pages_updated": ["wiki/natural-systems/Ecofisica.md", "wiki/natural-systems/Ecodinamica.md"]
-    },
-    ".raw/E. Hollnagel, D. D. Woods, N. Leveson - Resilience Engineering. Concepts and Precepts.pdf": {
-      "hash": "C5C841B58D8F601A4BB7722939C5C2B7",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Hollnagel Woods Leveson - Resilience Engineering.md"],
-      "pages_updated": ["wiki/concepts/Ingegneria dei Sistemi.md"]
-    },
-    ".raw/W. C. Reynolds - Energy.pdf": {
-      "hash": "7EA4BA99D766BEF64CBD24B1D9672F8A",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Reynolds - Energy.md"],
-      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md", "wiki/natural-systems/Ecofisica.md"]
-    },
-    ".raw/R. F. Weiner, R. Matthews - Environmental Engineering.pdf": {
-      "hash": "40B45EF2BCE6E97532E036C17DCC2319",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Weiner Matthews - Environmental Engineering.md"],
-      "pages_updated": ["wiki/natural-systems/Ecodinamica.md"]
-    },
-    ".raw/C. Toffalori, F. Corradini, S. Leonesi, S. Mancini - Teoria della Computabilità e Complessità.pdf": {
-      "hash": "2AEB15D7FDB77F86743FFB88699E0440",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Toffalori et al - Teoria Computabilità Complessità.md"],
+    ".raw/unlocked_UNI EN ISO 15189_2024 - Laboratori Medici - Requisiti Riguardanti la Qualità e la Competenza.pdf": {
+      "hash": "ee735d5fc9a1042a5d29e3a60756adde",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/ISO 15189-2024.md",
+        "wiki/concepts/ISO 15189.md",
+        "wiki/concepts/Sistema di Gestione per la Qualità.md",
+        "wiki/entities/SIPMeL.md",
+        "wiki/entities/ACCREDIA.md"
+      ],
       "pages_updated": []
     },
-    ".raw/M. Burgess -  Thinking in Promises, Designing Systems for Cooperation.epub": {
-      "hash": "7BC87DAE58BA468B5CFBAD773574DC89",
-      "ingested_at": "2026-05-18",
-      "pages_created": ["wiki/books/Burgess - Thinking in Promises.md"],
-      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md"],
-      "note": "EPUB binary; content from training knowledge"
+    ".raw/unlocked_ACCREDIA - Prescrizioni per l’accreditamento ISO 15189 dei laboratori.pdf": {
+      "hash": "e6cc728db55e12295992dfb12db7881e",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/ACCREDIA Prescrizioni Accreditamento ISO 15189.md",
+        "wiki/concepts/Processo di Accreditamento.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/ACCREDIA.md"
+      ]
     },
-    ".raw/L. von Bertalanffy - General System Theory.pdf": {
-      "hash": "EC7985834916F0D11205C63D640B5C7D",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/von Bertalanffy - General System Theory.md"],
-      "pages_updated": ["wiki/concepts/Teoria dei Sistemi.md", "wiki/books/_index.md", "wiki/index.md"]
+    ".raw/unlocked_ACCREDIA - Regolamento per l’accreditamento dei Laboratori di Prova, dei Laboratori Medici e degli Organizzatori di prove valutative interlaboratorio multisito.pdf": {
+      "hash": "ea12a848c3b3ed927c865a9422a33804",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/ACCREDIA Regolamento Accreditamento Multisito.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/ACCREDIA.md"
+      ]
     },
-    ".raw/L. von Bertalanffy - Teoria Generale dei Sistemi. Fondamenti, Sviluppo, Applicazioni.pdf": {
-      "hash": "7BBF806DA9CD7F0BC93149D6270C6510",
-      "ingested_at": "2026-05-19",
+    ".raw/unlocked_ACCREDIA - Regolamento per l'utilizzo del logo e del marchio ACCREDIA.pdf": {
+      "hash": "4b788e967a2e515252fa5cda44608dfd",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/ACCREDIA Regolamento Logo e Marchio.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/ACCREDIA.md"
+      ]
+    },
+    ".raw/unlocked_Linea Guida - Valutazione Esterna Qualita Laboratori (2009).pdf": {
+      "hash": "5976d9a82121ddcfe81972323559d638",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/Linea Guida VEQ Laboratori 2009.md",
+        "wiki/concepts/Valutazione Esterna di Qualità (VEQ).md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_Università di Tor Vergata - Manuale di Qualità LabCAP.pdf": {
+      "hash": "1044112c078c81833c9838e09e62f554",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/Manuale di Qualità LabCAP (Tor Vergata).md",
+        "wiki/entities/Università di Tor Vergata - LabCAP.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/ACCREDIA - Checklist Ispettore di Sistema ISO 15189 (Accredia).docx": {
+      "hash": "71ce58285fef69a6fc75f1de7dd4341a",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/ACCREDIA Checklist Ispettore ISO 15189.md",
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/Procedura Operativa Standard ISO 15189.docx": {
+      "hash": "fb54cfa1bca5bc0879582bab6a9753e0",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/Procedura Operativa Standard ISO 15189 (SOP Master).md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/Procedura Operativa Standard ISO 15189 - Controllo dei Valori Critici.docx": {
+      "hash": "d8ee2436869195371c1334f44697b23f",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SOP Controllo Valori Critici.md",
+        "wiki/concepts/Valori Critici.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/Procedura Operativa Standard ISO 15189 - Esempio di tabella dei Valori Critici.docx": {
+      "hash": "83a4075ea34d3e293099ba420001a38a",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SOP Tabella Valori Critici (Esempio).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Valori Critici.md"
+      ]
+    },
+    ".raw/Procedura Operativa Standard ISO 15189 - Piano di Addestramento e Formazione.docx": {
+      "hash": "1825e243ff45883be03f72e05816cba6",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SOP Piano di Addestramento e Formazione.md",
+        "wiki/concepts/Competenza e Formazione del Personale.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_Regolamento UE 745_2017 - Regolamento relativo ai dispositivi medici.pdf": {
+      "hash": "a8895c7308544a529972e468615dea22",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/Regolamento UE 2017-745 (MDR).md",
+        "wiki/entities/Unione Europea (Regolamenti Dispositivi Medici).md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_Regolamento UE 746_2017 - Regolamento relativo ai dispositivi medico-diagnostici in vitro.pdf": {
+      "hash": "46e346204f17805ee574910c26a21a4d",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/Regolamento UE 2017-746 (IVDR).md",
+        "wiki/concepts/Dispositivi Medico-Diagnostici In Vitro (IVD).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Unione Europea (Regolamenti Dispositivi Medici).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - M1 Raccomandazioni per Accreditamento ISO 15189 del laboratorio medico. Requisiti per organizzazione e direzione.pdf": {
+      "hash": "de25a8d436a0c775ce9009f7e9ea950a",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL M1 - Organizzazione e Direzione.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - M2 Raccomandazioni per Accreditamento ISO 15189 del laboratorio medico - requisiti per le relazioni con pazienti e medici curanti, parte seconda - intervalli e limiti.pdf": {
+      "hash": "41ec19f5f187c30f15bd3a2dce585c37",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL M2 - Relazioni con Pazienti e Medici, Intervalli di Riferimento.md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Q16 - Raccomandazioni per la stima dell'incertezza di misura nei laboratori medici (ISO 15189 e ISO 20914).pdf": {
+      "hash": "acc3f1a2eb4e0493ae824e13d578ff6c",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL Q16 - Incertezza di Misura.md",
+        "wiki/concepts/Incertezza di Misura.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Q17_Raccomandazioni per Accreditamento ISO 15189 del laboratorio medico. Requisiti della fase dei prelievi (preesame).pdf": {
+      "hash": "10cc2c4beaa1842459a6910759168eb6",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL Q17 - Fase Preanalitica (Prelievi).md",
+        "wiki/concepts/Fase Preanalitica.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Q18R1 informazioni_Raccomandazioni per Accreditamento ISO 15189 del laboratorio medico. Processi della gestione dati e informazioni.pdf": {
+      "hash": "d275c2fbbbba0b1791255b3df6f8bcb8",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL Q18R1 - Gestione Dati e Informazioni.md",
+        "wiki/concepts/Sistema Informativo di Laboratorio (LIS).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Q19 Raccomandazioni per Accreditamento ISO 15189 del laboratorio medico. Processi di esame, validità dei risultati degli esami.pdf": {
+      "hash": "94efb51e4fa36dbe9d07d6b011c644b8",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL Q19 - Processi di Esame e Validità dei Risultati.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Q20 Raccomandazioni per Accreditamento ISO 15189 del laboratorio medico. Requisiti delle risorse (parte prima. Personale, ambienti).pdf": {
+      "hash": "1906706118d53a9d84362f7390b35b11",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL Q20 Parte I - Personale e Ambienti.md",
+        "wiki/concepts/Ambienti e Condizioni di Laboratorio.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/Competenza e Formazione del Personale.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Q20 Raccomandazioni per Accreditamento ISO 15189 del laboratorio medico. Requisiti delle risorse (parte seconda. Attrezzature, reagenti, accordi e servizi dall’esterno).pdf": {
+      "hash": "93851a4ff8128217cee5fd04adc3efc1",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL Q20 Parte II - Attrezzature, Reagenti e Servizi Esterni.md",
+        "wiki/concepts/Gestione di Attrezzature, Reagenti e Fornitori Esterni.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Dispositivi Medico-Diagnostici In Vitro (IVD).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Q21 Raccomandazioni per Accreditamento ISO 15189 del laboratorio medico. Requisiti per taratura, verifica, valutazione dei metodi e incertezza dei risultati.pdf": {
+      "hash": "d3f9c8e62eda1a56d07f7396b2e72c72",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL Q21 - Taratura, Verifica e Incertezza.md",
+        "wiki/concepts/Tracciabilità Metrologica e Taratura.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/Incertezza di Misura.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Gestione di Attrezzature, Reagenti e Fornitori Esterni.md",
+        "wiki/concepts/Dispositivi Medico-Diagnostici In Vitro (IVD).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - L5Q15 Raccomandazioni per il glossario nelle nuove norme ISO per i laboratori medici su taratura, etichette e controllo di qualità (ISO 17511, ISO 18113 e ISO 15198).pdf": {
+      "hash": "7c5ddb27f5b5e0eaa8408e3348509aff",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL L5Q15 - Glossario ISO Laboratori Medici.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Le raccomandazioni SIPMeL per l’accreditamento ISO del monitoraggio di validità dei risultati degli esami.pdf": {
+      "hash": "2594cd179401956748ac3e1dd9048417",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Monitoraggio Validità dei Risultati degli Esami.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/Valutazione Esterna di Qualità (VEQ).md",
+        "wiki/concepts/Incertezza di Misura.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni SIPMeL per l’accreditamento ISO di personale, ambienti, attrezzature, reagenti, accordi e servizi da esterno.pdf": {
+      "hash": "466df5476544a8b79962ce1969fbaada",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Accreditamento Personale Ambienti Attrezzature (versione previa).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni per l'accreditamento di punti di prelievo e laboratori in rete.pdf": {
+      "hash": "eb46d384937c0669802d17cd14e74b18",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Accreditamento Punti di Prelievo e Laboratori in Rete.md",
+        "wiki/concepts/Reti di Laboratorio e Punti di Prelievo.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/ISO 15189.md",
+        "wiki/concepts/Fase Preanalitica.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/sources/ACCREDIA Regolamento Accreditamento Multisito.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni per l'inclusione dei requisiti degli esami eseguiti vicino al paziente (point-of-care testing, ISO 22870) nei requisiti dei laboratori medici (ISO 15189).pdf": {
+      "hash": "4ab2a7308d7e61255f0a6e5090c30cde",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Inclusione POCT (ISO 22870) in ISO 15189.md",
+        "wiki/concepts/Point-of-Care Testing (POCT).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/ISO 15189.md",
+        "wiki/concepts/Sistema Informativo di Laboratorio (LIS).md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Ambienti e Condizioni di Laboratorio.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Il problema dei falsi positivi e falsi negativi di troponina. Parte I - Revisione della Letteratura.pdf": {
+      "hash": "961bfaffca461c039e620a4935542d86",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte I (Revisione Letteratura).md",
+        "wiki/concepts/Troponina Cardiaca ad Alta Sensibilità (hs-cTn).md",
+        "wiki/concepts/Falsi Positivi e Falsi Negativi in Diagnostica di Laboratorio.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/Incertezza di Misura.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Fase Preanalitica.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Il problema dei falsi positivi e falsi negativi di troponina. Parte II - Dati e riflessioni dalla IV indagine del GdS MM SIPMeL.pdf": {
+      "hash": "5ebb4381ef4e52e4f4fd7a06cdb90fc1",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte II (Indagine GdS MM).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Il problema dei falsi positivi e falsi negativi di troponina. Parte III - Il ruolo dell’industria biomedica.pdf": {
+      "hash": "da66e21c5144a0d18365d23f7597b187",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte III (Ruolo Industria).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte I (Revisione Letteratura).md",
+        "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte II (Indagine GdS MM).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Il problema dei falsi positivi e falsi negativi di troponina. Parte IV - Raccomandazioni del Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.pdf": {
+      "hash": "adb4f5c6b1b2cc95f1e8d52ff651b95e",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte IV (Raccomandazioni GdS MM).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte I (Revisione Letteratura).md",
+        "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte II (Indagine GdS MM).md",
+        "wiki/concepts/Falsi Positivi e Falsi Negativi in Diagnostica di Laboratorio.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Il tempo di risposta del Laboratorio (turnaround time, TAT) per la troponina (cTn). Raccomandazione del GdS MM SIPMeL.pdf": {
+      "hash": "2d8fb19f7c73ad2761a2b61bd2f35ead",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Tempo di Risposta (TAT) per Troponina.md",
+        "wiki/concepts/Turnaround Time (TAT) in Laboratorio.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/concepts/Troponina Cardiaca ad Alta Sensibilità (hs-cTn).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazione del GdS-MM SIPMeL sul turnaround time per la troponina. Aggiornamento 2024.pdf": {
+      "hash": "0a8481ff7c3b062a46a3b14c9b13bcaa",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Tempo di Risposta (TAT) per Troponina - Aggiornamento 2024.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/sources/SIPMeL - Tempo di Risposta (TAT) per Troponina.md",
+        "wiki/concepts/Troponina Cardiaca ad Alta Sensibilità (hs-cTn).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni del Gruppo di Studio sui marcatori miocardici (GdS MM) di SIPMeL per l’implementazione di Point-of-care testing (POCT) per la determinazione della troponina (cTn).pdf": {
+      "hash": "ea4e2e70620381ce1f3c62706f9b1f5c",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Implementazione POCT Troponina.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/concepts/Point-of-Care Testing (POCT).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni del GdS-MM SIPMeL per l’implementazione di point-of-care testing di troponina per la diagnostica delle sindromi coronariche acute - Aggiornamento 2024.pdf": {
+      "hash": "f394887208e077636ea083c789a9c096",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Implementazione POCT Troponina per Sindromi Coronariche Acute - Aggiornamento 2024.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/concepts/Point-of-Care Testing (POCT).md",
+        "wiki/sources/SIPMeL - Implementazione POCT Troponina.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Sono necessari 99° percentili di troponina ad alta sensibilità (hs-cTn) specifici per etnia, età e sesso. Parte I - Il peso dell’etnia e dell’età.pdf": {
+      "hash": "9720131cd1ce962194da6184cdf4f4cb",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - 99° Percentili hs-cTn Specifici per Etnia ed Età - Parte I.md",
+        "wiki/concepts/99° Percentile e Valori Decisionali in hs-cTn.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/concepts/Troponina Cardiaca ad Alta Sensibilità (hs-cTn).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Sono necessari 99° percentili di troponina ad alta sensibilità (hs-cTn) specifici per etnia, età e sesso. Parte II - La colpa del sesso.pdf": {
+      "hash": "6105790ceedf3177f77796f2935a0635",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - 99° Percentili hs-cTn Specifici per Sesso - Parte II.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/concepts/Troponina Cardiaca ad Alta Sensibilità (hs-cTn).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Marcatori miocardici nella diagnosi e prognosi di infarto del miocardio NSTEMI. Raccomandazioni del Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.pdf": {
+      "hash": "b043bf9146c7bec1593a97ae76842380",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Marcatori Miocardici per Diagnosi e Prognosi di NSTEMI.md",
+        "wiki/concepts/hs-cTn come Marcatore Prognostico Generale.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Hs-cTn nella prognosi di malattie diverse dalle sindromi coronariche acute e il caso della popolazione generale. Raccomandazioni del GdS MM SIPMeL.pdf": {
+      "hash": "256585fcd516569c12fc40996c1aa3b7",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - hs-cTn in Prognosi Extra-ACS e Popolazione Generale.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md",
+        "wiki/concepts/hs-cTn come Marcatore Prognostico Generale.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Linee guida per l’utilizzo dei test autoanticorpali nella diagnosi e nel monitoraggio delle malattie autoimmuni reumatiche sistemiche. Revisione 2015.pdf": {
+      "hash": "a291585134d49bd48717e2321245fce2",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md",
+        "wiki/sources/SIPMeL - Test Autoanticorpali nelle Malattie Autoimmuni Reumatiche Sistemiche (2015).md",
+        "wiki/concepts/Diagnostica Autoanticorpale.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Aggiornamento delle linee guida SIPMeL sull’utilizzo dei test autoanticorpali nella diagnosi e nel monitoraggio delle malattie autoimmuni reumatiche sistemiche. Metodi per lo screening.pdf": {
+      "hash": "17542c46f37e6543d09f60ad2e9f5dab",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Metodi di Screening per Test Autoanticorpali (Aggiornamento).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Linee guida SIPMeL per la determinazione degli autoanticorpi nella diagnosi delle malattie autoimmuni del fegato.pdf": {
+      "hash": "074895ea4d262b8de768b2c3d6d97663",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Autoanticorpi nelle Malattie Autoimmuni del Fegato.md",
+        "wiki/concepts/Malattie Autoimmuni del Fegato e Marcatori Sierologici.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Anticorpi anti-mitocondri con specificità M2, positivi su cellule HEp-2 e negativi su triplo tessuto. Indicazioni per una corretta strategia diagnostica.pdf": {
+      "hash": "5d4cdf64a6dc1a4da892cd5855124081",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Anticorpi Anti-Mitocondri M2 (HEp-2 positivi, Triplo Tessuto negativi).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Linee guida per la diagnosi di laboratorio e istologica della malattia celiaca. Revisione 2015.pdf": {
+      "hash": "55d9588f42aadfa6b851bc5d753757ba",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Diagnosi di Laboratorio della Malattia Celiaca (2015).md",
+        "wiki/concepts/Diagnostica della Malattia Celiaca.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md",
+        "wiki/concepts/Diagnostica Autoanticorpale.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Il referto citofluorimetrico.pdf": {
+      "hash": "a3d2483c352d1261e8fcb9398b0c5e6c",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Il Referto Citofluorimetrico.md",
+        "wiki/concepts/Citometria a Flusso in Diagnostica di Laboratorio.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_SIPMEL - Choosing Wisely in autoimmunologia. Le 5 Proposte del Gruppo di Studio in Autoimmunologia della SIPMeL.pdf": {
+      "hash": "756cd7d938c19ab8da3ac09b82b033e4",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Choosing Wisely in Autoimmunologia (5 Proposte).md",
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md",
+        "wiki/concepts/Diagnostica Autoanticorpale.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Esame fisico, chimico e morfologico delle urine. Proposta di linee guida per la fase analitica del Gruppo Intersocietario Analisi delle Urine (GIAU).pdf": {
+      "hash": "82af1a09622087f674957a9999da56fa",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/entities/Gruppo Intersocietario Analisi delle Urine (GIAU).md",
+        "wiki/sources/GIAU - Esame Urine, Fase Analitica.md",
+        "wiki/concepts/Esame delle Urine (Analisi Chimico-Morfologica).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/Fase Preanalitica.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Esame fisico, chimico e morfologico delle urine. Raccomandazioni per la fase postanalitica del Gruppo Interdisciplinare Laboratorio e Clinica Apparato Urinario (GIAU).pdf": {
+      "hash": "f9a1ca5b88447fcc04c221fd77501612",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/GIAU - Esame Urine, Fase Postanalitica.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo Intersocietario Analisi delle Urine (GIAU).md",
+        "wiki/concepts/Esame delle Urine (Analisi Chimico-Morfologica).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - L’esame delle urine chimico morfologico e colturale. Proposta di linee guida per una procedura standardizzata della fase preanalitica.pdf": {
+      "hash": "b7da059d37a73fe386e9283fbab1869e",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/GIAU - Esame Urine, Fase Preanalitica (Chimico-Morfologico e Colturale).md",
+        "wiki/concepts/Trasporto e Conservazione dei Campioni Biologici.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo Intersocietario Analisi delle Urine (GIAU).md",
+        "wiki/concepts/Esame delle Urine (Analisi Chimico-Morfologica).md",
+        "wiki/concepts/Fase Preanalitica.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni della Federazione Italiana delle Società di Medicina di Laboratorio (FISMeLab) per il trasporto del materiale biologico.pdf": {
+      "hash": "0cbd1b5e425ed783af6d5b384b60a400",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/FISMeLab - Trasporto del Materiale Biologico.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Trasporto e Conservazione dei Campioni Biologici.md",
+        "wiki/concepts/Fase Preanalitica.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Lipemia, un’interferenza dimenticata. Considerazioni e Raccomandazioni. GdS VEA SIPMeL.pdf": {
+      "hash": "974202ea7812b56c73dbad7d69821f63",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/entities/Gruppo di Studio Variabilità Extra-Analitica (GdS VEA) SIPMeL.md",
+        "wiki/sources/SIPMeL - Interferenza da Lipemia.md",
+        "wiki/concepts/Interferenze Endogene HIL (Emolisi, Ittero, Lipemia).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - L’interferenza da ittero. Raccomandazioni GdS VEA SIPMeL.pdf": {
+      "hash": "271b47aa00a4e2fb7ae74ea5d310234d",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Interferenza da Ittero.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Variabilità Extra-Analitica (GdS VEA) SIPMeL.md",
+        "wiki/concepts/Interferenze Endogene HIL (Emolisi, Ittero, Lipemia).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni di consenso SIBioC-SIMeL per la rilevazione e gestione dei campioni emolizzati e utilizzo dell’indice di emolisi.pdf": {
+      "hash": "9f6a8cd5bd1f341a6a85a54a893f2d07",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIBioC-SIMeL - Campioni Emolizzati e Indice di Emolisi.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Variabilità Extra-Analitica (GdS VEA) SIPMeL.md",
+        "wiki/concepts/Interferenze Endogene HIL (Emolisi, Ittero, Lipemia).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Proposta di una checklist per il prelievo di sangue venoso.pdf": {
+      "hash": "9ff7881a174c3b69fc2d8915bddf9096",
+      "ingested_at": "2026-06-12",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Checklist per il Prelievo di Sangue Venoso.md",
+        "wiki/concepts/Flebotomia e Prelievo Venoso.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Fase Preanalitica.md",
+        "wiki/concepts/Interferenze Endogene HIL (Emolisi, Ittero, Lipemia).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - La diagnostica di laboratorio delle malattie del surrene. Raccomandazioni pratiche per feocromocitoma e paraganglioma.pdf": {
+      "hash": "e1e6666a75dc3a3f6fe53d8cd2860aef",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Diagnostica di Laboratorio del Feocromocitoma e Paraganglioma.md",
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio delle Malattie del Surrene.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - La diagnostica di laboratorio delle malattie del surrene. Raccomandazioni pratiche per la sindrome di Cushing.pdf": {
+      "hash": "08dce6099a55f077424a9135e5f1037b",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Diagnostica di Laboratorio della Sindrome di Cushing.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_SIPMEL - La diagnostica di laboratorio delle malattie del surrene. Raccomandazioni pratiche per l’insufficienza surrenalica primaria.pdf": {
+      "hash": "427568de49a6a213afdf4985de89453d",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Diagnostica di Laboratorio dell'Insufficienza Surrenalica Primaria.md",
+        "wiki/concepts/Steroidi Surrenalici e Iperplasia Adrenocorticale Congenita (CAH).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Diagnostica di Laboratorio delle Malattie del Surrene.md",
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Ormoni steroidei surrenalici. 17-idrossiprogesterone.pdf": {
+      "hash": "6b962a1b8683a628e1e09c947ad30258",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - 17-Idrossiprogesterone (17-OHP).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Ormoni steroidei surrenalici. Androstenedione.pdf": {
+      "hash": "3efa2fd9f6ae11162fed38674cb45be6",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Androstenedione.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Steroidi Surrenalici e Iperplasia Adrenocorticale Congenita (CAH).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Ormoni steroidei surrenalici. Deidroepiandrosterone e deidroepiandrosterone-solfato.pdf": {
+      "hash": "0ab08a7ad14dfee7b6dbf5de44f32bcf",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Deidroepiandrosterone e DHEA-Solfato (DHEA-S).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Steroidi Surrenalici e Iperplasia Adrenocorticale Congenita (CAH).md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Gonadotropine ipofisarie e infertilità.pdf": {
+      "hash": "c909f5686adb8103c7ebd35110c8f162",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Gonadotropine Ipofisarie (FSH, LH) e Infertilità.md",
+        "wiki/concepts/Diagnostica di Laboratorio dell'Infertilità.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Ormone anti-Mülleriano e infertilità.pdf": {
+      "hash": "e3bc0ebc4155bc39677a0365ca5b31fc",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Ormone Anti-Mülleriano (AMH) e Infertilità.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio dell'Infertilità.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Prolattina e infertilità.pdf": {
+      "hash": "cea899be6d8d9494e011d1bf9ff46d8f",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Prolattina e Infertilità.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio dell'Infertilità.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni per l’esecuzione del test da carico orale di glucosio (OGTT).pdf": {
+      "hash": "5ccb91a27782984297eac66d609b8f6f",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Test da Carico Orale di Glucosio (OGTT).md",
+        "wiki/concepts/Diagnostica di Laboratorio del Diabete.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni per l’autocontrollo della glicemia nel paziente diabetico. Sinossi.pdf": {
+      "hash": "1964fd7fcec54f85906e6ebbdafd2250",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Autocontrollo della Glicemia (SMBG) - Sinossi.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio del Diabete.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni per l’ottimizzazione della fase pre-analitica per una corretta determinazione della glicemia in ambito diabetologico.pdf": {
+      "hash": "30948551f02d322bcb5de6edf5503d52",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Ottimizzazione Fase Preanalitica per Glicemia.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio del Diabete.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni per l’utilizzo del test di attivazione dei basofili nella diagnosi delle malattie allergiche.pdf": {
+      "hash": "761a0b1c0510f32e5b42ca429cf078f8",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Test di Attivazione dei Basofili (BAT) in Allergologia.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Allergologia SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio in Allergologia.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni per l’utilizzo della diagnostica molecolare in Allergologia.pdf": {
+      "hash": "611df0b1f1c0f4916c9410fabf24bd27",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Diagnostica Molecolare in Allergologia.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Allergologia SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio in Allergologia.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni sull’uso della triptasi nella diagnosi dell’anafilassi e della mastocitosi.pdf": {
+      "hash": "c21b61e0ae9230324a4ab87e99ea2af9",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Triptasi nella Diagnosi di Anafilassi e Mastocitosi.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Allergologia SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio in Allergologia.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Consenso sulla diagnostica di laboratorio per i pazienti in trattamento con farmaci anticoagulanti ad azione diretta. Sottoscritto da SISET, FCSA, SIBioC, SIPMeL.pdf": {
+      "hash": "59ac94b7ab2825bfbccd0bc485d1af71",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/entities/Gruppo di Studio Coagulazione SIPMeL.md",
+        "wiki/sources/SIPMeL - Diagnostica di Laboratorio per Pazienti in Trattamento con DOAC (Consenso SISET-FCSA-SIBioC-SIPMeL).md",
+        "wiki/concepts/Monitoraggio di Laboratorio degli Anticoagulanti Orali Diretti (DOAC).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/SIPMeL.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Documento di consenso FCSA, SIMeL, SIBioC e CISMEL sul monitoraggio di laboratorio dei nuovi farmaci anticoagulanti orali.pdf": {
+      "hash": "839108d5fac6c9257a8d3eb4ca59cf83",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Monitoraggio di Laboratorio dei Nuovi Anticoagulanti Orali (NAO) - Consenso FCSA-SIMeL-SIBioC-CISMEL.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Coagulazione SIPMeL.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Aggiornamento delle Linee Guida di Medicina di Laboratorio. Raccomandazioni del GdS EBLM SIPMeL.pdf": {
+      "hash": "051bbf62eab91a5f8d68d15f829c87dd",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Aggiornamento delle Linee Guida di Medicina di Laboratorio (Raccomandazioni GdS EBLM).md",
+        "wiki/entities/Gruppo di Studio Evidence Based Laboratory Medicine (GdS EBLM) SIPMeL.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Praticare l'appropriatezza in Medicina di Laboratorio. Un aggiornamento (2016).pdf": {
+      "hash": "e421df60d8d4f4f5cac43dc52eecc744",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Praticare l'Appropriatezza in Medicina di Laboratorio (Aggiornamento 2016).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Evidence Based Laboratory Medicine (GdS EBLM) SIPMeL.md",
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Linee guida per il confronto di procedure di esami di laboratorio. Utilizzo delle indicazioni di CLSI EP09-A3 ed EP31-A-IR.pdf": {
+      "hash": "a969731f6463021e60ebdd0d822c6272",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Linee Guida per il Confronto di Procedure di Esami di Laboratorio (CLSI EP09-A3 ed EP31-A-IR).md",
+        "wiki/concepts/Confronto di Procedure e Verifica di Confrontabilità (CLSI EP09-EP31).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Raccomandazioni Choosing Wisely del GdS-AI SIPMeL_2018.pdf": {
+      "hash": "4ba6833b138f21e9513661d0d574ce81",
+      "ingested_at": "2026-06-13",
       "pages_created": [],
-      "pages_updated": ["wiki/books/von Bertalanffy - General System Theory.md"],
-      "note": "Edizione italiana; consolidata nella pagina dell'edizione inglese"
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md"
+      ],
+      "note": "Duplicate content of c-000080 (SIPMeL - Choosing Wisely in Autoimmunologia (5 Proposte).md) - same 5 recommendations, Choosing Wisely Italy flyer format (Oct 2018). No new page created; mapped to existing c-000080."
     },
-    ".raw/D. Kondepudi, I.  Prigogine - Modern Thermodynamics. From Heat Engines to Dissipative Structures.pdf": {
-      "hash": "0646B91E431A38088E96EC61E7A4F306",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Kondepudi Prigogine - Modern Thermodynamics.md"],
-      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md", "wiki/books/_index.md", "wiki/index.md"]
+    ".raw/unlocked_SIPMEL - Raccomandazioni Choosing Wisely del GdS-AI SIPMeL_Aggiorn.2025.pdf": {
+      "hash": "9732f53c2fe4f46f579d8ba11720a446",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Choosing Wisely in Autoimmunologia, Aggiornamento 2025 (5 Proposte).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md",
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md",
+        "wiki/sources/SIPMEL - Choosing Wisely in Autoimmunologia (5 Proposte).md"
+      ]
     },
-    ".raw/I. Prigogine - From Being to Becoming.pdf": {
-      "hash": "DA60CF26B2CA8A22DF6A7FD8BB74C3EE",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Prigogine - From Being to Becoming.md"],
-      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"],
-      "note": "Scansione; contenuto da conoscenza di addestramento"
+    ".raw/unlocked_SIPMEL - Choosing wisely. La lista del gruppo di studio Endocrinologia e Malattie del Metabolismo, Medicina di Laboratorio.pdf": {
+      "hash": "c14580994f4a000fc95d37da4fab5acb",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Choosing Wisely del Gruppo di Studio Endocrinologia e Malattie del Metabolismo.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md"
+      ]
     },
-    ".raw/I. Prigogine - Le Leggi del Caos.pdf": {
-      "hash": "BC14866416C98A5EDACB0ADE2BA4DF3A",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Prigogine - Le Leggi del Caos.md"],
-      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"],
-      "note": "Scansione italiana; contenuto da conoscenza di addestramento"
+    ".raw/unlocked_SIPMEL - Raccomandazioni Choosing Wisely del GdS-EBLM_I_SIPMeL_agg2023.pdf": {
+      "hash": "60914e4f0b05f9b6bf3a0c32f3763402",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Choosing Wisely GdS-EBLM Lista I (Aggiornamento 2023).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Evidence Based Laboratory Medicine (GdS EBLM) SIPMeL.md",
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md"
+      ]
     },
-    ".raw/I. Prigogine - Termodinamica dei Processi Irreversibili.pdf": {
-      "hash": "D587D6B51FED9A2C9177B4C0B9C533D5",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Prigogine - Termodinamica Processi Irreversibili.md"],
-      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"],
-      "note": "Scansione italiana; contenuto da conoscenza di addestramento"
+    ".raw/unlocked_SIPMEL - Raccomandazioni Choosing Wisely del GdS-EBLM_II_SIPMeL_2023.pdf": {
+      "hash": "dd7ec8263bdd1d579c9a22ec52c2db8e",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Choosing Wisely GdS-EBLM Lista II (2023).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Evidence Based Laboratory Medicine (GdS EBLM) SIPMeL.md",
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md"
+      ]
     },
-    ".raw/I. Prigogine, G. Nicolis - Self-Organization in Non-Equilibrium Sytems.pdf": {
-      "hash": "439312443700A767F1A6B8C40B7CEC02",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Prigogine Nicolis - Self-Organization Non-Equilibrium.md"],
-      "pages_updated": ["wiki/concepts/Fenomeni Autocooperativi.md", "wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"],
-      "note": "Scansione; contenuto da conoscenza di addestramento"
+    ".raw/unlocked_SIPMEL - Raccomandazioni Choosing Wisely del GdS-EBLM SIPMeL - Laboratorio Green di SIPMeL_2025.pdf": {
+      "hash": "e61bd6306fb0dfc7390bd47cdff9eb5c",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Choosing Wisely GdS-EBLM Laboratorio Green (2025).md",
+        "wiki/concepts/Sostenibilità Ambientale nel Laboratorio Clinico.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Evidence Based Laboratory Medicine (GdS EBLM) SIPMeL.md",
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md"
+      ]
     },
-    ".raw/I. Prigogine, S. A. Rice - Advances in Chemical Physics [Vol 90].pdf": {
-      "hash": "E2C5E384761E25DAA4F2A34628864AAA",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Prigogine Rice - Advances Chemical Physics Vol90.md"],
-      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"]
+    ".raw/unlocked_SIPMEL - Raccomandazioni Choosing Wisely del GdS-EMM SIPMeL_agg2024.pdf": {
+      "hash": "50ae6a6e2895531e3d30fef1e9f23757",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Choosing Wisely del Gruppo di Studio Endocrinologia e Malattie del Metabolismo - Aggiornamento 2024.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/SIPMeL - Choosing Wisely del Gruppo di Studio Endocrinologia e Malattie del Metabolismo.md",
+        "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+        "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md"
+      ]
     },
-    ".raw/R. C. Tolman - The Principles of Statistical Mechanics.pdf": {
-      "hash": "0BF19B422931F527728D2D660ACE6A23",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Tolman - Principles Statistical Mechanics.md", "wiki/concepts/Meccanica Statistica.md"],
-      "pages_updated": ["wiki/index.md"],
-      "note": "Scansione; contenuto da conoscenza di addestramento"
+    ".raw/unlocked_SIPMEL - Infrastruttura informatica per i Laboratori medici (LIS) del 2020. Le raccomandazioni SIPMeL.pdf": {
+      "hash": "17bafd7892e686e5820aca4c447549d9",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Infrastruttura Informatica per i Laboratori Medici (LIS) - Raccomandazioni 2020.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Sistema Informativo di Laboratorio (LIS).md"
+      ]
     },
-    ".raw/L. E. Reichl - A Modern Course in Statistical Physics.pdf": {
-      "hash": "1DF5A4815C6855C05488FD7609C9D9A9",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Reichl - Modern Course Statistical Physics.md"],
-      "pages_updated": ["wiki/concepts/Meccanica Statistica.md"],
-      "note": "Scansione; contenuto da conoscenza di addestramento"
+    ".raw/unlocked_SIPMEL - PoCT e diagnostica decentrata. UPDATE 2016. Posizione SIPMeL del GdS Point of Care Testing.pdf": {
+      "hash": "0587f496aa4eecee0c40591ebc7900b2",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - PoCT e Diagnostica Decentrata - Posizione del GdS Point of Care Testing - Aggiornamento 2016.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Point-of-Care Testing (POCT).md"
+      ]
     },
-    ".raw/S. R. De Groot, P. Mazur - Non-Equilibrium Thermodynamics.pdf": {
-      "hash": "F65F59A10A9895A8C0A7ABFE271FD97F",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/De Groot Mazur - Non-Equilibrium Thermodynamics.md"],
-      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"],
-      "note": "Scansione; contenuto da conoscenza di addestramento"
+    ".raw/unlocked_SIPMEL - Indagine sulla diagnostica lipidica in Italia del GdS MM SIPMeL. Risultati e raccomandazioni per la refertazione.pdf": {
+      "hash": "bd5958c5f989e007176ff01a9a726b52",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Indagine sulla Diagnostica Lipidica in Italia del GdS MM SIPMeL.md",
+        "wiki/concepts/Diagnostica di Laboratorio del Profilo Lipidico.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md"
+      ]
     },
-    ".raw/Y. Demirel - Nonequilibrium Thermodynamics.pdf": {
-      "hash": "7BC70E372D0BC3CAC47FA23859B36E46",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Demirel - Nonequilibrium Thermodynamics.md"],
-      "pages_updated": ["wiki/concepts/Termodinamica dei Fenomeni Irreversibili.md"],
-      "note": "Scansione; contenuto da conoscenza di addestramento"
+    ".raw/unlocked_SIPMEL - Percorso di laboratorio raccomandato nella diagnosi, prognosi e follow-up delle gammopatie monoclonali.pdf": {
+      "hash": "e21190d288fbf6342281251bdfd06bde",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Percorso di Laboratorio nella Diagnosi, Prognosi e Follow-up delle Gammopatie Monoclonali.md",
+        "wiki/concepts/Diagnostica di Laboratorio delle Gammopatie Monoclonali.md"
+      ],
+      "pages_updated": []
     },
-    ".raw/M. J. Moran, H. N. Shapiro - Fundamentals of Engineering Thermodynamics.pdf": {
-      "hash": "F36938A24F7C60AAD6AC8DE2DF3D971F",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Moran Shapiro - Fundamentals Engineering Thermodynamics.md"],
-      "pages_updated": ["wiki/books/_index.md", "wiki/index.md"]
+    ".raw/unlocked_SIPMEL - La ricerca del lupus anticoagulant. Raccomandazioni del gruppo di studio sulla coagulazione di SIPMeL.pdf": {
+      "hash": "acd92734a4a170d187a6609dc23d4511",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - La Ricerca del Lupus Anticoagulant - Raccomandazioni del GdS Coagulazione.md",
+        "wiki/concepts/Sindrome da Anticorpi Antifosfolipidi e Lupus Anticoagulant.md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Coagulazione SIPMeL.md",
+        "wiki/concepts/Monitoraggio di Laboratorio degli Anticoagulanti Orali Diretti (DOAC).md",
+        "wiki/concepts/Diagnostica Autoanticorpale.md"
+      ]
     },
-    ".raw/Y. A. Çengel, M. A. Boles - Thermodynamics. An Engineering Approach (8th Ed.).pdf": {
-      "hash": "52840F2E2815D3E6F0A526998E0979CC",
-      "ingested_at": "2026-05-19",
-      "pages_created": ["wiki/books/Cengel Boles - Thermodynamics Engineering Approach.md"],
-      "pages_updated": ["wiki/books/_index.md", "wiki/index.md"]
+    ".raw/unlocked_SIPMEL - Linee guida SIPMeL per la ricerca dei polimorfismi nella diagnostica di screening della trombofilia.pdf": {
+      "hash": "9274672b4471e31a25dcec61b1b1f2cc",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Linee Guida per la Ricerca dei Polimorfismi nella Diagnostica di Screening della Trombofilia.md",
+        "wiki/concepts/Screening della Trombofilia (Diagnostica Molecolare).md"
+      ],
+      "pages_updated": [
+        "wiki/entities/Gruppo di Studio Coagulazione SIPMeL.md",
+        "wiki/concepts/Sindrome da Anticorpi Antifosfolipidi e Lupus Anticoagulant.md",
+        "wiki/concepts/Monitoraggio di Laboratorio degli Anticoagulanti Orali Diretti (DOAC).md"
+      ]
     },
-    ".raw/Y. A. Çengel, M. A. Boles - Thermodynamics. An Engineering Approach (8th Ed.) - Solution Manual.pdf": {
-      "hash": "71B1203667E3C913113E9AEB7A89FDEA",
-      "ingested_at": "2026-05-19",
-      "pages_created": [],
-      "pages_updated": ["wiki/books/Cengel Boles - Thermodynamics Engineering Approach.md"],
-      "note": "Solution manual; consolidato nella pagina del textbook"
+    ".raw/unlocked_SIPMEL - Raccomandazioni per la gestione di variabili preanalitiche legate al paziente nella determinazione del PSA in fase di screening e follow-up di cancro prostatico.pdf": {
+      "hash": "5099087605dc41ee694913fc54e02fbc",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Raccomandazioni per la Gestione delle Variabili Preanalitiche Legate al Paziente nella Determinazione del PSA.md",
+        "wiki/concepts/Antigene Prostatico Specifico (PSA) e Screening Oncologico.md",
+        "wiki/concepts/Diagnostica di Laboratorio in Oncologia (Marcatori Tumorali).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Flebotomia e Prelievo Venoso.md",
+        "wiki/concepts/Trasporto e Conservazione dei Campioni Biologici.md"
+      ]
+    },
+    ".raw/unlocked_SIPMEL - Tumore del colon retto. Percorsi diagnostici sulla base di linee guida internazionali.pdf": {
+      "hash": "dad984be1b48f513ecaa7c06d1060f97",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/SIPMeL - Tumore del Colon Retto, Percorsi Diagnostici sulla Base di Linee Guida Internazionali.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Diagnostica di Laboratorio in Oncologia (Marcatori Tumorali).md"
+      ]
+    },
+    ".raw/unlocked_UNI EN ISO 9001_2015 - Sistemi di Gestione della Qualità - Requisiti.pdf": {
+      "hash": "1fd899a4205f10957c43c778fac0e26a",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI EN ISO 9001-2015 - Sistemi di Gestione della Qualità - Requisiti.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Sistema di Gestione per la Qualità.md"
+      ]
+    },
+    ".raw/unlocked_UNI EN ISO 9004_2018 - Gestione per la qualità - Qualità di un'organizzazione - Linee guida per conseguire il successo durevole.pdf": {
+      "hash": "c6cb5b24c619de7dc858dd4a8c6ea03b",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI EN ISO 9004-2018 - Gestione per la Qualità - Linee Guida per il Successo Durevole.md",
+        "wiki/concepts/Successo Durevole e Auto-Valutazione (ISO 9004).md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_UNI ISO 31000_2018 - Gestione del rischio - Linee guida.pdf": {
+      "hash": "f5445c6846f842a0a14364353edf456d",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI ISO 31000-2018 - Gestione del Rischio - Linee Guida.md",
+        "wiki/concepts/Gestione del Rischio (ISO 31000).md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_UNI EN ISO 22301_2019 - Sicurezza e resilienza - Sistemi di gestione per la continuità operativa - Requisiti.pdf": {
+      "hash": "8fdad8fd4f85d48761f46c791c2bb5b2",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI EN ISO 22301-2019 - Sistemi di Gestione per la Continuità Operativa - Requisiti.md",
+        "wiki/concepts/Continuità Operativa e Resilienza del Laboratorio.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Sistema di Gestione per la Qualità.md",
+        "wiki/concepts/Gestione del Rischio (ISO 31000).md"
+      ]
+    },
+    ".raw/unlocked_UNI EN ISO 45001_2018 - Sistemi di gestione per la salute e sicurezza sul lavoro - Requisiti e guida per l’uso.pdf": {
+      "hash": "3aeaa56002933325a801fcdf2f6f3696",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI ISO 45001-2018 - Sistemi di Gestione per la Salute e Sicurezza sul Lavoro - Requisiti.md",
+        "wiki/concepts/Salute e Sicurezza sul Lavoro (SSL) nel Laboratorio Clinico.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Sistema di Gestione per la Qualità.md",
+        "wiki/concepts/Gestione del Rischio (ISO 31000).md"
+      ]
+    },
+    ".raw/unlocked_UNI EN ISO 45002_2023 - Sistemi di gestione per la salute e sicurezza sul lavoro - Linee guida generali per l'attuazione della UNI ISO 45001_2018.pdf": {
+      "hash": "5d9a9bc4533b6893133948789e05f7ce",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI ISO 45002-2023 - Linee Guida per l'Attuazione della UNI ISO 45001.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_UNI ISO 29995_2021 - Servizi di Istruzione e Formazione - Vocabolario.pdf": {
+      "hash": "8d5c18cad38e2f60817a82e95ee31c17",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI ISO 29995-2021 - Servizi di Istruzione e Formazione - Vocabolario.md",
+        "wiki/concepts/Formazione e Competenza del Personale (ISO 29995).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Sistema di Gestione per la Qualità.md"
+      ]
+    },
+    ".raw/unlocked_UNI ISO 30401_2019 - Sistemi di gestione della conoscenza - Requisiti.pdf": {
+      "hash": "986b11834454b8b5dcd4f63cfcddb2ef",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI ISO 30401-2019 - Sistemi di Gestione della Conoscenza - Requisiti.md",
+        "wiki/concepts/Gestione della Conoscenza Organizzativa (ISO 30401).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Sistema di Gestione per la Qualità.md"
+      ]
+    },
+    ".raw/unlocked_UNI ISO 55001_2015 - Gestione dei beni (asset management) - Sistemi di gestione - Requisiti.pdf": {
+      "hash": "41bf04afda6ae16f53a323a64db8dadf",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI ISO 55001-2015 - Gestione dei Beni (Asset Management) - Sistemi di Gestione - Requisiti.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_UNI ISO 55002_2015 - Gestione dei beni (asset management) - Sistemi di gestione - Linee guida per l'applicazione della ISO 55001.pdf": {
+      "hash": "df16c0bb37915ad4afd0a4cd46e1f66e",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI ISO 55002-2015 - Gestione dei Beni (Asset Management) - Sistemi di Gestione - Linee Guida per l'Applicazione della ISO 55001.md",
+        "wiki/concepts/Gestione degli Asset e Apparecchiature di Laboratorio (ISO 55001).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Sistema di Gestione per la Qualità.md",
+        "wiki/concepts/Gestione di Attrezzature, Reagenti e Fornitori Esterni.md"
+      ]
+    },
+    ".raw/unlocked_UNI EN ISO 41001_2018 - Facility management - Sistemi di gestione - Requisiti con guida per l'utilizzo.pdf": {
+      "hash": "92c849a63bb7d2e998f14c8d3dce5f25",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI EN ISO 41001-2018 - Facility Management - Sistemi di Gestione - Requisiti con Guida per l'Utilizzo.md",
+        "wiki/concepts/Facility Management (ISO 41001).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Gestione degli Asset e Apparecchiature di Laboratorio (ISO 55001).md",
+        "wiki/concepts/Ambienti e Condizioni di Laboratorio.md",
+        "wiki/concepts/Sistema di Gestione per la Qualità.md"
+      ]
+    },
+    ".raw/unlocked_UNI EN ISO 41011_2018 - Facility management - Vocabolario.pdf": {
+      "hash": "47a4d4580d670338942c8bea3ebdeb5b",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI EN ISO 41011-2018 - Facility Management - Vocabolario.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Facility Management (ISO 41001).md"
+      ]
+    },
+    ".raw/unlocked_UNI EN ISO 41012_2018 - Facility management - Guida sull'approvvigionamento strategico e l'elaborazione degli accordi.pdf": {
+      "hash": "e489979124b1104b7178443de7538ba5",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI EN ISO 41012-2018 - Facility Management - Guida sull'Approvvigionamento Strategico e l'Elaborazione degli Accordi.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Facility Management (ISO 41001).md"
+      ]
+    },
+    ".raw/unlocked_UNI EN 13306_2018 - Manutenzione - Terminologia di manutenzione.pdf": {
+      "hash": "975653298b8cdad593469dcec33171ea",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI EN 13306-2018 - Manutenzione Terminologia.md",
+        "wiki/concepts/Terminologia e Tipologie di Manutenzione (UNI 13306).md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_UNI 10147_2013 - Manutenzione - Termini aggiuntivi alla UNI EN 13306 e definizioni.pdf": {
+      "hash": "11c3c01de53afb8d32238df43b2e5984",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI 10147-2013 - Manutenzione Termini Aggiuntivi.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_UNI 11063_2017 - Manutenzione - Definizione di manutenzione ordinaria e straordinaria.pdf": {
+      "hash": "4098a9520f51f0c2eb8f7245ada5ddeb",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI 11063-2017 - Manutenzione Ordinaria e Straordinaria.md"
+      ],
+      "pages_updated": []
+    },
+    ".raw/unlocked_UNI 10366_2007 - Manutenzione - Criteri di progettazione della manutenzione.pdf": {
+      "hash": "c91af08c854452b4ff24c153d184f932",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI 10366-2007 - Criteri di Progettazione della Manutenzione.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Terminologia e Tipologie di Manutenzione (UNI 13306).md"
+      ]
+    },
+    ".raw/unlocked_UNI 10685_2007 - Manutenzione - Criteri per la formulazione di un contratto di manutenzione basato sui risultati (global service di manutenzione).pdf": {
+      "hash": "365b8f7023e2a1da3eb223b110803769",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI 10685-2007 - Criteri per Contratti di Manutenzione Global Service.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Terminologia e Tipologie di Manutenzione (UNI 13306).md",
+        "wiki/concepts/Facility Management (ISO 41001).md",
+        "wiki/concepts/Gestione degli Asset e Apparecchiature di Laboratorio (ISO 55001).md"
+      ]
+    },
+    ".raw/unlocked_UNI EN 15341_2019 - Manutenzione - Indicatori di prestazione della manutenzione (KPI).pdf": {
+      "hash": "c12f1b126e569da6591e3e8f9a1ae43a",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/UNI EN 15341-2019 - Indicatori di Prestazione della Manutenzione (KPI).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Terminologia e Tipologie di Manutenzione (UNI 13306).md",
+        "wiki/concepts/Gestione degli Asset e Apparecchiature di Laboratorio (ISO 55001).md"
+      ]
+    },
+    ".raw/Corso 15189_2024 edXV_6_1-intro+risorsePersonale.pdf": {
+      "hash": "7f95bc0a2b5f8a35e15b8d8c7c24bb17",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso 15189_2024 edXV_6_2-risorseStruttura63.pdf": {
+      "hash": "8399828518bf1ab9b2ceb419fe4775d0",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso 15189_2024 edXV_6_3incertezza734.pdf": {
+      "hash": "2cac77ea72932c4a012e2a82dba0d80c",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso 15189_2024 edXV_6_4riferimento735.pdf": {
+      "hash": "d10153c4447aa5a84a7caaff647f3faf",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso 15189_2024 edXV_6_5esameRisultati737.pdf": {
+      "hash": "d949fb26e8916193690e2beb582489e7",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso 15189_2024 edXV_6_6postesame74.pdf": {
+      "hash": "aa159b61589e83953039b98d2dfc03a0",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso 15189_2024 edXV_6_7informativo76.pdf": {
+      "hash": "801862551d31386d6dd586e797379282",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 1.pdf": {
+      "hash": "3692624b5aca57ab4bb0966d7a9617da",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 2.pdf": {
+      "hash": "b8837dfc79be4480c667f1974a79ccf5",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 3.pdf": {
+      "hash": "bb31c48d4354abf438b765cdce72a0a9",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 4.pdf": {
+      "hash": "cedf3a34f21467cb68692a1d0aa10345",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 4-2.pdf": {
+      "hash": "17d78b55cdf4199161efa66b9fc95a72",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 5.pdf": {
+      "hash": "ec23ccf53554ffbf99edd0b03d65e171",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 7.pdf": {
+      "hash": "c640910c0ef61b42978c92803e7ebe3d",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 8-1.pdf": {
+      "hash": "dc9a8937f54875dbc0a1d4593efb05f5",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
+    },
+    ".raw/Corso UNI EN ISO 15189_2024 edXV - Parte 8-2.pdf": {
+      "hash": "64c38f83f01160ea0085312bc2f3a466",
+      "ingested_at": "2026-06-13",
+      "pages_created": [
+        "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+        "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Audit Interno e Visita Ispettiva.md",
+        "wiki/concepts/Processo di Accreditamento.md",
+        "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md",
+        "wiki/concepts/Controllo di Qualità Interno (CQI).md",
+        "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md",
+        "wiki/concepts/ISO 15189.md"
+      ]
     }
   },
   "address_map": {
-    "wiki/concepts/DragonScale Memory.md": "c-000001",
-    "wiki/books/von Bertalanffy - General System Theory.md": "c-000003",
-    "wiki/books/Kondepudi Prigogine - Modern Thermodynamics.md": "c-000004",
-    "wiki/books/Prigogine - From Being to Becoming.md": "c-000005",
-    "wiki/books/Prigogine - Le Leggi del Caos.md": "c-000006",
-    "wiki/books/Prigogine - Termodinamica Processi Irreversibili.md": "c-000007",
-    "wiki/books/Prigogine Nicolis - Self-Organization Non-Equilibrium.md": "c-000008",
-    "wiki/books/Prigogine Rice - Advances Chemical Physics Vol90.md": "c-000009",
-    "wiki/books/Tolman - Principles Statistical Mechanics.md": "c-000010",
-    "wiki/books/Reichl - Modern Course Statistical Physics.md": "c-000011",
-    "wiki/books/De Groot Mazur - Non-Equilibrium Thermodynamics.md": "c-000012",
-    "wiki/books/Demirel - Nonequilibrium Thermodynamics.md": "c-000013",
-    "wiki/books/Moran Shapiro - Fundamentals Engineering Thermodynamics.md": "c-000014",
-    "wiki/books/Cengel Boles - Thermodynamics Engineering Approach.md": "c-000015",
-    "wiki/concepts/Meccanica Statistica.md": "c-000016"
+    "wiki/sources/ISO 15189-2024.md": "c-000001",
+    "wiki/concepts/ISO 15189.md": "c-000002",
+    "wiki/concepts/Sistema di Gestione per la Qualità.md": "c-000003",
+    "wiki/entities/SIPMeL.md": "c-000004",
+    "wiki/entities/ACCREDIA.md": "c-000005",
+    "wiki/sources/ACCREDIA Prescrizioni Accreditamento ISO 15189.md": "c-000006",
+    "wiki/sources/ACCREDIA Regolamento Accreditamento Multisito.md": "c-000007",
+    "wiki/concepts/Processo di Accreditamento.md": "c-000008",
+    "wiki/sources/ACCREDIA Regolamento Logo e Marchio.md": "c-000009",
+    "wiki/sources/Linea Guida VEQ Laboratori 2009.md": "c-000010",
+    "wiki/concepts/Valutazione Esterna di Qualità (VEQ).md": "c-000011",
+    "wiki/sources/Manuale di Qualità LabCAP (Tor Vergata).md": "c-000012",
+    "wiki/sources/ACCREDIA Checklist Ispettore ISO 15189.md": "c-000013",
+    "wiki/concepts/Audit Interno e Visita Ispettiva.md": "c-000014",
+    "wiki/entities/Università di Tor Vergata - LabCAP.md": "c-000015",
+    "wiki/sources/Procedura Operativa Standard ISO 15189 (SOP Master).md": "c-000016",
+    "wiki/sources/SOP Controllo Valori Critici.md": "c-000017",
+    "wiki/sources/SOP Tabella Valori Critici (Esempio).md": "c-000018",
+    "wiki/sources/SOP Piano di Addestramento e Formazione.md": "c-000019",
+    "wiki/concepts/Valori Critici.md": "c-000020",
+    "wiki/concepts/Competenza e Formazione del Personale.md": "c-000021",
+    "wiki/sources/Regolamento UE 2017-745 (MDR).md": "c-000022",
+    "wiki/sources/Regolamento UE 2017-746 (IVDR).md": "c-000023",
+    "wiki/concepts/Dispositivi Medico-Diagnostici In Vitro (IVD).md": "c-000024",
+    "wiki/entities/Unione Europea (Regolamenti Dispositivi Medici).md": "c-000025",
+    "wiki/sources/SIPMeL M1 - Organizzazione e Direzione.md": "c-000026",
+    "wiki/sources/SIPMeL M2 - Relazioni con Pazienti e Medici, Intervalli di Riferimento.md": "c-000027",
+    "wiki/concepts/Intervalli di Riferimento e Limiti Decisionali.md": "c-000028",
+    "wiki/sources/SIPMeL Q16 - Incertezza di Misura.md": "c-000029",
+    "wiki/sources/SIPMeL Q17 - Fase Preanalitica (Prelievi).md": "c-000030",
+    "wiki/concepts/Incertezza di Misura.md": "c-000031",
+    "wiki/concepts/Fase Preanalitica.md": "c-000032",
+    "wiki/sources/SIPMeL Q18R1 - Gestione Dati e Informazioni.md": "c-000033",
+    "wiki/sources/SIPMeL Q19 - Processi di Esame e Validità dei Risultati.md": "c-000034",
+    "wiki/concepts/Sistema Informativo di Laboratorio (LIS).md": "c-000035",
+    "wiki/concepts/Validazione e Verifica dei Metodi Analitici.md": "c-000036",
+    "wiki/sources/SIPMeL Q20 Parte I - Personale e Ambienti.md": "c-000037",
+    "wiki/sources/SIPMeL Q20 Parte II - Attrezzature, Reagenti e Servizi Esterni.md": "c-000038",
+    "wiki/concepts/Ambienti e Condizioni di Laboratorio.md": "c-000039",
+    "wiki/concepts/Gestione di Attrezzature, Reagenti e Fornitori Esterni.md": "c-000040",
+    "wiki/sources/SIPMeL Q21 - Taratura, Verifica e Incertezza.md": "c-000041",
+    "wiki/sources/SIPMeL L5Q15 - Glossario ISO Laboratori Medici.md": "c-000042",
+    "wiki/concepts/Tracciabilità Metrologica e Taratura.md": "c-000043",
+    "wiki/sources/SIPMeL - Monitoraggio Validità dei Risultati degli Esami.md": "c-000044",
+    "wiki/sources/SIPMeL - Accreditamento Personale Ambienti Attrezzature (versione previa).md": "c-000045",
+    "wiki/concepts/Controllo di Qualità Interno (CQI).md": "c-000046",
+    "wiki/sources/SIPMeL - Accreditamento Punti di Prelievo e Laboratori in Rete.md": "c-000047",
+    "wiki/sources/SIPMeL - Inclusione POCT (ISO 22870) in ISO 15189.md": "c-000048",
+    "wiki/concepts/Point-of-Care Testing (POCT).md": "c-000049",
+    "wiki/concepts/Reti di Laboratorio e Punti di Prelievo.md": "c-000050",
+    "wiki/entities/Gruppo di Studio sui Marcatori Miocardici (GdS MM) SIPMeL.md": "c-000051",
+    "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte I (Revisione Letteratura).md": "c-000052",
+    "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte II (Indagine GdS MM).md": "c-000053",
+    "wiki/concepts/Troponina Cardiaca ad Alta Sensibilità (hs-cTn).md": "c-000054",
+    "wiki/concepts/Falsi Positivi e Falsi Negativi in Diagnostica di Laboratorio.md": "c-000055",
+    "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte III (Ruolo Industria).md": "c-000056",
+    "wiki/sources/SIPMeL - Falsi Positivi e Falsi Negativi di Troponina - Parte IV (Raccomandazioni GdS MM).md": "c-000057",
+    "wiki/sources/SIPMeL - Tempo di Risposta (TAT) per Troponina.md": "c-000058",
+    "wiki/sources/SIPMeL - Tempo di Risposta (TAT) per Troponina - Aggiornamento 2024.md": "c-000059",
+    "wiki/concepts/Turnaround Time (TAT) in Laboratorio.md": "c-000060",
+    "wiki/sources/SIPMeL - Implementazione POCT Troponina.md": "c-000061",
+    "wiki/sources/SIPMeL - Implementazione POCT Troponina per Sindromi Coronariche Acute - Aggiornamento 2024.md": "c-000062",
+    "wiki/sources/SIPMeL - 99° Percentili hs-cTn Specifici per Etnia ed Età - Parte I.md": "c-000063",
+    "wiki/sources/SIPMeL - 99° Percentili hs-cTn Specifici per Sesso - Parte II.md": "c-000064",
+    "wiki/concepts/99° Percentile e Valori Decisionali in hs-cTn.md": "c-000065",
+    "wiki/sources/SIPMeL - hs-cTn in Prognosi Extra-ACS e Popolazione Generale.md": "c-000066",
+    "wiki/sources/SIPMeL - Marcatori Miocardici per Diagnosi e Prognosi di NSTEMI.md": "c-000067",
+    "wiki/concepts/hs-cTn come Marcatore Prognostico Generale.md": "c-000068",
+    "wiki/entities/Gruppo di Studio in Autoimmunologia (GdS-AI) SIPMeL.md": "c-000069",
+    "wiki/sources/SIPMeL - Test Autoanticorpali nelle Malattie Autoimmuni Reumatiche Sistemiche (2015).md": "c-000070",
+    "wiki/sources/SIPMeL - Metodi di Screening per Test Autoanticorpali (Aggiornamento).md": "c-000071",
+    "wiki/concepts/Diagnostica Autoanticorpale.md": "c-000072",
+    "wiki/sources/SIPMeL - Autoanticorpi nelle Malattie Autoimmuni del Fegato.md": "c-000073",
+    "wiki/sources/SIPMeL - Anticorpi Anti-Mitocondri M2 (HEp-2 positivi, Triplo Tessuto negativi).md": "c-000074",
+    "wiki/concepts/Malattie Autoimmuni del Fegato e Marcatori Sierologici.md": "c-000075",
+    "wiki/sources/SIPMeL - Diagnosi di Laboratorio della Malattia Celiaca (2015).md": "c-000076",
+    "wiki/sources/SIPMeL - Il Referto Citofluorimetrico.md": "c-000077",
+    "wiki/concepts/Diagnostica della Malattia Celiaca.md": "c-000078",
+    "wiki/concepts/Citometria a Flusso in Diagnostica di Laboratorio.md": "c-000079",
+    "wiki/sources/SIPMeL - Choosing Wisely in Autoimmunologia (5 Proposte).md": "c-000080",
+    "wiki/concepts/Appropriatezza Diagnostica e Choosing Wisely.md": "c-000081",
+    "wiki/entities/Gruppo Intersocietario Analisi delle Urine (GIAU).md": "c-000082",
+    "wiki/sources/GIAU - Esame Urine, Fase Analitica.md": "c-000083",
+    "wiki/sources/GIAU - Esame Urine, Fase Postanalitica.md": "c-000084",
+    "wiki/concepts/Esame delle Urine (Analisi Chimico-Morfologica).md": "c-000085",
+    "wiki/sources/GIAU - Esame Urine, Fase Preanalitica (Chimico-Morfologico e Colturale).md": "c-000086",
+    "wiki/sources/FISMeLab - Trasporto del Materiale Biologico.md": "c-000087",
+    "wiki/concepts/Trasporto e Conservazione dei Campioni Biologici.md": "c-000088",
+    "wiki/entities/Gruppo di Studio Variabilità Extra-Analitica (GdS VEA) SIPMeL.md": "c-000089",
+    "wiki/sources/SIPMeL - Interferenza da Lipemia.md": "c-000090",
+    "wiki/sources/SIPMeL - Interferenza da Ittero.md": "c-000091",
+    "wiki/concepts/Interferenze Endogene HIL (Emolisi, Ittero, Lipemia).md": "c-000092",
+    "wiki/sources/SIBioC-SIMeL - Campioni Emolizzati e Indice di Emolisi.md": "c-000093",
+    "wiki/sources/SIPMeL - Checklist per il Prelievo di Sangue Venoso.md": "c-000094",
+    "wiki/concepts/Flebotomia e Prelievo Venoso.md": "c-000095",
+    "c-000096": "wiki/entities/Gruppo di Studio Endocrinologia e Malattie del Metabolismo SIPMeL.md",
+    "c-000097": "wiki/sources/SIPMeL - Diagnostica di Laboratorio del Feocromocitoma e Paraganglioma.md",
+    "c-000098": "wiki/sources/SIPMeL - Diagnostica di Laboratorio della Sindrome di Cushing.md",
+    "c-000099": "wiki/concepts/Diagnostica di Laboratorio delle Malattie del Surrene.md",
+    "wiki/sources/SIPMeL - Diagnostica di Laboratorio dell'Insufficienza Surrenalica Primaria.md": "c-000100",
+    "wiki/sources/SIPMeL - 17-Idrossiprogesterone (17-OHP).md": "c-000101",
+    "wiki/concepts/Steroidi Surrenalici e Iperplasia Adrenocorticale Congenita (CAH).md": "c-000102",
+    "wiki/sources/SIPMeL - Androstenedione.md": "c-000103",
+    "wiki/sources/SIPMeL - Deidroepiandrosterone e DHEA-Solfato (DHEA-S).md": "c-000104",
+    "wiki/sources/SIPMeL - Gonadotropine Ipofisarie (FSH, LH) e Infertilità.md": "c-000105",
+    "wiki/sources/SIPMeL - Ormone Anti-Mülleriano (AMH) e Infertilità.md": "c-000106",
+    "wiki/concepts/Diagnostica di Laboratorio dell'Infertilità.md": "c-000107",
+    "wiki/sources/SIPMeL - Prolattina e Infertilità.md": "c-000108",
+    "wiki/sources/SIPMeL - Test da Carico Orale di Glucosio (OGTT).md": "c-000109",
+    "wiki/concepts/Diagnostica di Laboratorio del Diabete.md": "c-000110",
+    "wiki/sources/SIPMeL - Autocontrollo della Glicemia (SMBG) - Sinossi.md": "c-000111",
+    "wiki/sources/SIPMeL - Ottimizzazione Fase Preanalitica per Glicemia.md": "c-000112",
+    "wiki/entities/Gruppo di Studio Allergologia SIPMeL.md": "c-000113",
+    "wiki/sources/SIPMeL - Test di Attivazione dei Basofili (BAT) in Allergologia.md": "c-000114",
+    "wiki/sources/SIPMeL - Diagnostica Molecolare in Allergologia.md": "c-000115",
+    "wiki/sources/SIPMeL - Triptasi nella Diagnosi di Anafilassi e Mastocitosi.md": "c-000116",
+    "wiki/concepts/Diagnostica di Laboratorio in Allergologia.md": "c-000117",
+    "wiki/entities/Gruppo di Studio Coagulazione SIPMeL.md": "c-000118",
+    "wiki/sources/SIPMeL - Diagnostica di Laboratorio per Pazienti in Trattamento con DOAC (Consenso SISET-FCSA-SIBioC-SIPMeL).md": "c-000119",
+    "wiki/sources/SIPMeL - Monitoraggio di Laboratorio dei Nuovi Anticoagulanti Orali (NAO) - Consenso FCSA-SIMeL-SIBioC-CISMEL.md": "c-000120",
+    "wiki/concepts/Monitoraggio di Laboratorio degli Anticoagulanti Orali Diretti (DOAC).md": "c-000121",
+    "wiki/sources/SIPMeL - Aggiornamento delle Linee Guida di Medicina di Laboratorio (Raccomandazioni GdS EBLM).md": "c-000122",
+    "wiki/sources/SIPMeL - Praticare l'Appropriatezza in Medicina di Laboratorio (Aggiornamento 2016).md": "c-000123",
+    "wiki/sources/SIPMeL - Linee Guida per il Confronto di Procedure di Esami di Laboratorio (CLSI EP09-A3 ed EP31-A-IR).md": "c-000124",
+    "wiki/entities/Gruppo di Studio Evidence Based Laboratory Medicine (GdS EBLM) SIPMeL.md": "c-000125",
+    "wiki/concepts/Confronto di Procedure e Verifica di Confrontabilità (CLSI EP09-EP31).md": "c-000126",
+    "wiki/sources/SIPMeL - Choosing Wisely in Autoimmunologia, Aggiornamento 2025 (5 Proposte).md": "c-000127",
+    "wiki/sources/SIPMeL - Choosing Wisely del Gruppo di Studio Endocrinologia e Malattie del Metabolismo.md": "c-000128",
+    ".raw/unlocked_SIPMEL - Raccomandazioni Choosing Wisely del GdS-AI SIPMeL_2018.pdf": "c-000080",
+    "wiki/sources/SIPMeL - Choosing Wisely GdS-EBLM Lista I (Aggiornamento 2023).md": "c-000129",
+    "wiki/sources/SIPMeL - Choosing Wisely GdS-EBLM Lista II (2023).md": "c-000130",
+    "wiki/sources/SIPMeL - Choosing Wisely GdS-EBLM Laboratorio Green (2025).md": "c-000131",
+    "wiki/concepts/Sostenibilità Ambientale nel Laboratorio Clinico.md": "c-000132",
+    "wiki/sources/SIPMeL - Choosing Wisely del Gruppo di Studio Endocrinologia e Malattie del Metabolismo - Aggiornamento 2024.md": "c-000133",
+    "wiki/sources/SIPMeL - Infrastruttura Informatica per i Laboratori Medici (LIS) - Raccomandazioni 2020.md": "c-000134",
+    "wiki/sources/SIPMeL - PoCT e Diagnostica Decentrata - Posizione del GdS Point of Care Testing - Aggiornamento 2016.md": "c-000135",
+    "wiki/sources/SIPMeL - Indagine sulla Diagnostica Lipidica in Italia del GdS MM SIPMeL.md": "c-000136",
+    "wiki/concepts/Diagnostica di Laboratorio del Profilo Lipidico.md": "c-000137",
+    "wiki/sources/SIPMeL - Percorso di Laboratorio nella Diagnosi, Prognosi e Follow-up delle Gammopatie Monoclonali.md": "c-000138",
+    "wiki/concepts/Diagnostica di Laboratorio delle Gammopatie Monoclonali.md": "c-000139",
+    "wiki/sources/SIPMeL - La Ricerca del Lupus Anticoagulant - Raccomandazioni del GdS Coagulazione.md": "c-000140",
+    "wiki/concepts/Sindrome da Anticorpi Antifosfolipidi e Lupus Anticoagulant.md": "c-000141",
+    "wiki/sources/SIPMeL - Linee Guida per la Ricerca dei Polimorfismi nella Diagnostica di Screening della Trombofilia.md": "c-000142",
+    "wiki/sources/SIPMeL - Raccomandazioni per la Gestione delle Variabili Preanalitiche Legate al Paziente nella Determinazione del PSA.md": "c-000143",
+    "wiki/sources/SIPMeL - Tumore del Colon Retto, Percorsi Diagnostici sulla Base di Linee Guida Internazionali.md": "c-000144",
+    "wiki/concepts/Screening della Trombofilia (Diagnostica Molecolare).md": "c-000145",
+    "wiki/concepts/Antigene Prostatico Specifico (PSA) e Screening Oncologico.md": "c-000146",
+    "wiki/concepts/Diagnostica di Laboratorio in Oncologia (Marcatori Tumorali).md": "c-000147",
+    "wiki/sources/UNI EN ISO 9001-2015 - Sistemi di Gestione della Qualità - Requisiti.md": "c-000148",
+    "wiki/sources/UNI EN ISO 9004-2018 - Gestione per la Qualità - Linee Guida per il Successo Durevole.md": "c-000149",
+    "wiki/sources/UNI ISO 31000-2018 - Gestione del Rischio - Linee Guida.md": "c-000150",
+    "wiki/concepts/Gestione del Rischio (ISO 31000).md": "c-000151",
+    "wiki/concepts/Successo Durevole e Auto-Valutazione (ISO 9004).md": "c-000152",
+    "wiki/sources/UNI EN ISO 22301-2019 - Sistemi di Gestione per la Continuità Operativa - Requisiti.md": "c-000153",
+    "wiki/sources/UNI ISO 45001-2018 - Sistemi di Gestione per la Salute e Sicurezza sul Lavoro - Requisiti.md": "c-000154",
+    "wiki/sources/UNI ISO 45002-2023 - Linee Guida per l'Attuazione della UNI ISO 45001.md": "c-000155",
+    "wiki/concepts/Continuità Operativa e Resilienza del Laboratorio.md": "c-000156",
+    "wiki/concepts/Salute e Sicurezza sul Lavoro (SSL) nel Laboratorio Clinico.md": "c-000157",
+    "wiki/sources/UNI ISO 29995-2021 - Servizi di Istruzione e Formazione - Vocabolario.md": "c-000159",
+    "wiki/sources/UNI ISO 30401-2019 - Sistemi di Gestione della Conoscenza - Requisiti.md": "c-000160",
+    "wiki/concepts/Formazione e Competenza del Personale (ISO 29995).md": "c-000161",
+    "wiki/concepts/Gestione della Conoscenza Organizzativa (ISO 30401).md": "c-000158",
+    "wiki/sources/UNI ISO 55001-2015 - Gestione dei Beni (Asset Management) - Sistemi di Gestione - Requisiti.md": "c-000162",
+    "wiki/sources/UNI ISO 55002-2015 - Gestione dei Beni (Asset Management) - Sistemi di Gestione - Linee Guida per l'Applicazione della ISO 55001.md": "c-000163",
+    "wiki/concepts/Gestione degli Asset e Apparecchiature di Laboratorio (ISO 55001).md": "c-000164",
+    "c-000165": "wiki/sources/UNI EN ISO 41001-2018 - Facility Management - Sistemi di Gestione - Requisiti con Guida per l'Utilizzo.md",
+    "c-000166": "wiki/sources/UNI EN ISO 41011-2018 - Facility Management - Vocabolario.md",
+    "c-000167": "wiki/sources/UNI EN ISO 41012-2018 - Facility Management - Guida sull'Approvvigionamento Strategico e l'Elaborazione degli Accordi.md",
+    "c-000168": "wiki/concepts/Facility Management (ISO 41001).md",
+    "c-000169": "wiki/sources/UNI EN 13306-2018 - Manutenzione Terminologia.md",
+    "c-000170": "wiki/sources/UNI 10147-2013 - Manutenzione Termini Aggiuntivi.md",
+    "c-000171": "wiki/sources/UNI 11063-2017 - Manutenzione Ordinaria e Straordinaria.md",
+    "c-000172": "wiki/concepts/Terminologia e Tipologie di Manutenzione (UNI 13306).md",
+    "c-000173": "wiki/sources/UNI 10366-2007 - Criteri di Progettazione della Manutenzione.md",
+    "c-000174": "wiki/sources/UNI 10685-2007 - Criteri per Contratti di Manutenzione Global Service.md",
+    "c-000175": "wiki/sources/UNI EN 15341-2019 - Indicatori di Prestazione della Manutenzione (KPI).md",
+    "c-000176": "wiki/sources/Corso UNI EN ISO 15189_2024 edXV - Novità Edizione 2024 e Note Operative ACCREDIA RT-35.md",
+    "c-000177": "wiki/concepts/Metodologia di Audit Interno (ISO 19011).md"
   }
 }
