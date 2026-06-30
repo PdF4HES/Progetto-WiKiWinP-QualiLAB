@@ -107,3 +107,6 @@ _attachments/
 .vault-meta/.tiling.lock
 .vault-meta/tiling-cache.json
 .vault-meta/tiling-cache.*.tmp
+
+# PDF di grandi dimensioni: non versionati da qui in avanti, storia pregressa non toccata (vedi ADR-005)
+.raw/*.pdf
