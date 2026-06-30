@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "721de3eaf74b84d0",
+        "id": "66286f201f17e3d4",
         "type": "tabs",
         "children": [
           {
-            "id": "4aed90d6187b297e",
+            "id": "ad8a79a87a3dc4dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -177,11 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "Proprietà file per conflict-files-obsidian-git"
+              "title": "Proprietà file"
             }
           }
         ],
@@ -211,13 +205,13 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "4aed90d6187b297e",
+  "active": "ad8a79a87a3dc4dd",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "WIKI.md",
     "README.md",
     "ATTRIBUTION.md",
     "AGENTS.md",
-    "conflict-files-obsidian-git.md",
     "Wiki/getting-started.md",
     "Wiki/hot.md",
     "arxiv-agent-config.md",
