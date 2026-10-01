@@ -195,7 +195,13 @@
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
       "templates:Inserisci modello": false,
-      "bases:Crea nuova Base": false
+      "bases:Crea nuova Base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "callout-manager:Insert Callout": false
     }
   },
   "active": "ad8a79a87a3dc4dd",
